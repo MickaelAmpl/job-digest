@@ -21,8 +21,12 @@ Job ads in Vienna are spread over LinkedIn, karriere.at, StepStone, DER STANDARD
 7. **Tracks applications**: `/applied`, `/report` with the funnel, a weekly check that "Interesting" jobs are still open, manual entries for applications sent outside the bot.
 8. **Watches itself**: a failed source or step is shown in the next digest's header; if Claude's login on the server expires, an alert goes out.
 
-> [SCREENSHOT: morning digest card in Telegram - score, reason, buttons]
-> [SCREENSHOT: tailored CV PDF sent by the bot]
+Screenshots from my real bot (the bot talks to me in Russian):
+
+| Morning digest, 12 November | Tailored CV for one ad |
+|---|---|
+| ![Morning digest: how many ads passed the rules, how many Claude rejected and why, which sources failed](docs/img/morning-digest.png) | ![Tailored CV: the PDF, what changed against the base CV, and the requirements the facts cannot cover](docs/img/tailored-cv.png) |
+| The header says what was read, what passed the rules and which sources failed that morning. Below it, each job Claude turned down, with its score and the reason. | The PDF for one ad, what changed against the base CV, and an honest list of requirements the facts cannot cover. Those never go into the CV. |
 
 ## How it keeps the CV honest
 
