@@ -1,0 +1,122 @@
+{
+  "note": "Approved CV wording library (Misha 09.10.2026). Tailoring may only: pick bullets of a role from its list (count <= base count), order them, pick one summary variant, and apply the listed synonym swaps. Any bullet or summary that is not a library text after swaps is rejected by code. <b> spans are part of the approved text.",
+  "summaries": {
+    "A_product": "3+ years in Web3 and fintech products. Joined a crypto market data platform at day one and defined it from research and positioning to launch: roadmap, specs, tickets and GA4 product metrics; 120,000+ users in year one. Founded and exited a Telegram media network (150,000+ subscribers). Works daily with Claude and Codex.",
+    "B_research": "3+ years in Web3 and fintech products, with a research analyst background: market and competitor research, white papers, UX benchmarks. Defined a crypto market data platform from research to launch; 120,000+ users in year one. Founded and exited a Telegram media network (150,000+ subscribers).",
+    "C_ai": "3+ years in Web3 and fintech products. Defined a crypto market data platform from research to launch: roadmap, specs, tickets and GA4 product metrics; 120,000+ users in year one. Founded and exited a Telegram media network (150,000+ subscribers). Uses AI tools (Claude, Codex) daily for research and documentation."
+  },
+  "roles": [
+    {
+      "role": "Product Manager",
+      "bullets": {
+        "pm1": "Defined the product's business logic from day one: research, positioning, then development with the CTO",
+        "pm2": "Turned market research and positioning into the roadmap and specs for a crypto market data platform",
+        "pm3": "Reached <b>120,000+ users</b> in year one; then worked on the team's second product, a Telegram mini-app",
+        "pm4": "Wrote the product docs, roadmap and tickets for developers and the designer; prepared wireframes",
+        "pm5": "Defined the product metrics tracked in GA4 (set up by the team) and used them for monetization and engagement decisions",
+        "pm6": "Worked directly with the owners and with marketing on the go-to-market strategy",
+        "pm7": "Worked in Kanban with Jira and Confluence; used AI tools daily to speed up research and documentation",
+        "pm8": "Analyzed product metrics in GA4 to guide monetization and engagement decisions",
+        "pm9": "Wrote user stories with acceptance criteria in Jira and kept product docs in Confluence; worked in Kanban"
+      },
+      "must_keep": [
+        "pm3"
+      ],
+      "exclusive": [
+        [
+          "pm5",
+          "pm8"
+        ],
+        [
+          "pm7",
+          "pm9"
+        ]
+      ]
+    },
+    {
+      "role": "Product & Operations Associate (part-time)",
+      "bullets": {
+        "fi1": "Mapped the end-to-end card application and issuing journey and prepared wireframes for the designer",
+        "fi2": "Ran market and competitor analysis to inform positioning and feature decisions",
+        "fi3": "Supported fundraising with cold outreach to venture funds",
+        "fi4": "Sent cold outreach to venture funds while Kestrel was in the Seedline Capital accelerator"
+      },
+      "must_keep": [],
+      "exclusive": [
+        [
+          "fi3",
+          "fi4"
+        ]
+      ]
+    },
+    {
+      "role": "Research Analyst",
+      "bullets": {
+        "ra1": "Wrote 3 white papers and a lite paper (CoinNest, PayLoop, VR Horizon, StudyPath), reviewed by CPO and CTO",
+        "ra2": "Designed the token model (supply, allocation, utility) for StudyPath",
+        "ra3": "Market and competitor research: LatAm crypto market (Zentex), SwiftRamp (GatePay), TradeHub exchange",
+        "ra4": "Benchmarked the UX of 6 fintech platforms (Stripe, Adyen, Square, Plaid, BitPay, Chainalysis) for GatePay",
+        "ra5": "Researched the Latin American crypto market for a crypto exchange (Zentex): country briefs and a ranking of regional startups",
+        "ra6": "Profiled competitors for a crypto payments company (GatePay vs SwiftRamp) and for the TradeHub exchange",
+        "ra7": "Estimated the size and growth of the VR market for a VR project's white paper (VR Horizon)"
+      },
+      "must_keep": [
+        "ra1"
+      ],
+      "exclusive": [
+        [
+          "ra3",
+          "ra5"
+        ],
+        [
+          "ra3",
+          "ra6"
+        ]
+      ]
+    },
+    {
+      "role": "Founder",
+      "bullets": {
+        "fo1": "Grew a Telegram media network to <b>150,000+ subscribers</b> via paid placements and cross-promotion",
+        "fo2": "Led a team of 5; monetized through advertising sold in the channels",
+        "fo3": "Exited the business in 2022"
+      },
+      "must_keep": [
+        "fo1",
+        "fo3"
+      ],
+      "pin_last": "fo3"
+    }
+  ],
+  "synonyms": [
+    [
+      "product docs",
+      "product requirements",
+      "specs"
+    ],
+    [
+      "metrics",
+      "KPIs"
+    ],
+    [
+      "market and competitor analysis",
+      "market and competitive research"
+    ],
+    [
+      "tickets",
+      "Jira tickets"
+    ],
+    [
+      "wireframes",
+      "wireframes in Figma"
+    ],
+    [
+      "the owners",
+      "stakeholders"
+    ],
+    [
+      "neobank",
+      "digital bank"
+    ]
+  ]
+}

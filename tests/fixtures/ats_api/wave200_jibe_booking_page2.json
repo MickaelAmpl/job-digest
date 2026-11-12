@@ -1,0 +1,242 @@
+{
+ "jobs": [
+  {
+   "data": {
+    "slug": "29757",
+    "language": "en-us",
+    "languages": [
+     "en-us"
+    ],
+    "client_code": "workingatbooking",
+    "req_id": "29757",
+    "title": "Booking Holdings Romania - IT Risk & Compliance Officer (PCI)",
+    "description": "<p>Booking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence pr",
+    "location_name": "Bucharest - BH",
+    "street_address": "U-Center (3rd floor) 206 Calea Șerban Vodă, district 4,",
+    "city": "Bucharest",
+    "state": "Bucureşti",
+    "country": "Romania",
+    "country_code": "RO",
+    "postal_code": "040215",
+    "location_type": "LAT_LNG",
+    "latitude": 44.43225,
+    "longitude": 26.10626,
+    "categories": [
+     {
+      "name": "Risk & Control"
+     }
+    ],
+    "tags1": [
+     "Booking Holdings COE Company Hierarchy"
+    ],
+    "brand": "Booking Holdings",
+    "department": "",
+    "recruiter_gateway_id": "104",
+    "promotion_value": 1,
+    "salary_value": 0,
+    "salary_min_value": 0,
+    "salary_max_value": 0,
+    "employment_type": "FULL_TIME",
+    "hiring_organization": "Booking Holdings",
+    "hiring_organization_logo": "https://www.bookingholdings.com/wp-content/themes/booking-group/img/svg/bkng_global-desktop-logowhite.svg",
+    "source": "Booking Holdings",
+    "posted_date": "2026-07-17T09:41:00+0000",
+    "apply_url": "https://careers-holdings-workingatbooking.icims.com/jobs/29757/login",
+    "internal": false,
+    "external": false,
+    "searchable": true,
+    "applyable": true,
+    "li_easy_applyable": true,
+    "ats_code": "icims",
+    "hiring_flow_name": "iCIMS ATS Hiring Flow",
+    "isFrontLineAIJob": false,
+    "isApplyFlowJob": false,
+    "meta_data": {
+     "mongo": {
+      "mongo_created": true
+     },
+     "openingjobs": {
+      "openingJobId": "0000ea513a697b04788232592a2f7898ad0b"
+     },
+     "icims": {
+      "jps_is_public": true,
+      "primary_posted_site_object": {
+       "site": "careers-holdings-workingatbooking",
+       "siteId": "1ce74f77-4cd6-4b71-81a4-5379ad01d27f",
+       "datePosted": "2026-07-17T09:41:00+0000"
+      },
+      "date_updated": "2026-10-01T11:33:03Z",
+      "config_keys": {
+       "jobposting.external.company.name": "Booking Holdings",
+       "icims.external.xml.feeds": "icims.accessdubuquejobs.xml.enabled,icims.advantageai.xml.enabled,icims.adzuna.xml.enabled,icims.aeroemploiformation.xml.enabled,icims.agefiph.xml.enabled,icims.allyenergy.xml.enabled,icims.apec.xml.enabled,icims.appcast.xml.enabled,icims.bayard.xml.enabled,icims.bdssolutions.xml.enabled,icims.careerbuilder.xml.enabled,icims.careerarc.xml.enabled,icims.careerjet.xml.enabled,icims.careerlink.xml.enabled,icims.careermd.xml.enabled,icims.caterer.xml.enabled,icims.clearbold.xml.enabled,icims.constructionjobs.xml.enabled,icims.convergesolution.xml.enabled,icims.craigslist.xml.enabled,icims.culinaryagents.xml.enabled,icims.cv-library.xml.enabled,icims.cvaden.xml.enabled,icims.direct-employers.xml.enabled,icims.diversityjobsgroup.xml.enabled,icims.edtech.xml.enabled,icims.firsthand.xml.enabled,icims.flockity.xml.enabled,icims.foorilla.xml.enabled,icims.getit.xml.enabled,icims.greatdane.xml.enabled,icims.haymarket.xml.enabled,icims.hellowork.xml.enabled,icims.hireheroesusa.xml.enabled,icims.hireahero.xml.enabled,icims.hireclix.xml.enabled,icims.hirepurpose.xml.enabled,icims.hiringcafe.xml.enabled,icims.hospitalcareers.xml.enabled,icims.iberempleos.xml.enabled,icims.inautomotive.xml.enabled,icims.indeed.xml.enabled,icims.inhersight.xml.enabled,icims.interactivesites.xml.enabled,icims.irishjobs.xml.enabled,icims.itjobscafe.xml.enabled,icims.jobbio.xml.enabled,icims.jobboardio.xml.enabled,icims.jobcase.xml.enabled,icims.jobget.xml.enabled,icims.jobgether.xml.enabled,icims.jobsite.xml.enabled,icims.jobted.xml.enabled,icims.jooble.xml.enabled,icims.leisurejobs.xml.enabled,icims.tango.xml.enabled,icims.linkedin.xml.enabled,icims.meritbench.xml.enabled,icims.mogul.xml.enabled,icims.monster.xml.enabled,icims.msep.xml.enabled,icims.nijobs.xml.enabled,icims.offerup.xml.enabled,icims.oilandgas.xml.enabled,icims.oneten.xml.enabled,icims.pallet-labs.xml.enabled,icims.paradox.xml.enabled,icims.powertofly.xml.enabled,icims.practicematch.xml.enabled,icims.prideatwork.xml.enabled,icims.professionaldiversitynetwork.xml.enabled,icims.propellum.xml.enabled,icims.puck.xml.enabled,icims.qkly.xml.enabled,icims.radancy.xml.enabled,icims.recruitnet.xml.enabled,icims.recruitics.xml.enabled,icims.recruitmilitary.xml.enabled,icims.referio.xml.enabled,icims.regionsjob.xml.enabled,icims.resume-library.xml.enabled,icims.rssb.xml.enabled,icims.smartjobboard.xml.enabled,icims.snagajob.xml.enabled,icims.socialhp.xml.enabled,icims.sourceamerica.xml.enabled,icims.stealthstartup.xml.enabled,icims.stylecareers.xml.enabled,icims.technojobs.xml.enabled,icims.triad.xml.enabled,icims.unpostedjobs.xml.enabled,icims.upward.xml.enabled,icims.vivian.xml.enabled,icims.vonq.xml.enabled,icims.webengineering.xml.enabled,icims.webscribble.xml.enabled,icims.welcometothejungle.xml.enabled,icims.werkzoeken.xml.enabled,icims.wrightmedia.xml.enabled,icims.ziprecruiter.xml.enabled,icims.zippia.xml.enabled,icims.nexxt.xml.enabled",
+       "portal.id": "196",
+       "ccc.attract.portal.url": "https://www.bookingholdings-coe.com/bookingholdings-coe",
+       "icims.config.web.indeed.easy.apply": "0"
+      },
+      "revision_int": 2,
+      "uuid": "a9917b54-23ad-4d46-9fb3-2961316f8bd0"
+     },
+     "ats_job_hash": "82eb598df7993323788f6d8516638257",
+     "googlejobs": {
+      "jobName": "projects/helpful-passage-853/tenants/cb22eb5b-7e00-0000-0000-007edad744d3/jobs/100080766418854598"
+     },
+     "import_id": "a1a1c9f5-7b47-4875-96d3-444049b497a2",
+     "redirectOnApply": true,
+     "questionservice": {
+      "id": "6139779"
+     },
+     "canonical_url": "https://www.bookingholdings-coe.com/bookingholdings-coe/jobs/29757?lang=en-us",
+     "gdpr": true,
+     "last_mod": "2026-10-01T11:33:17+0000",
+     "elasticsearch": {
+      "es_created": false
+     },
+     "opensearch": {
+      "hit_score": "NaN",
+      "hit_explanation": null,
+      "hit_matched_queries": [
+       "internal",
+       "applyable",
+       "term-language",
+       "searchable",
+       "term-client_code"
+      ],
+      "hit_index": "jobs",
+      "hit_shard": null
+     },
+     "import_source": "ImporterService",
+     "client_code": "workingatbooking"
+    },
+    "update_date": "2026-10-01T11:33:17+0000",
+    "create_date": "2026-07-17T09:43:05+0000",
+    "category": [
+     " Risk & Control"
+    ],
+    "full_location": "Bucharest, Romania",
+    "short_location": "Bucharest, Romania",
+    "multipleLocations": false
+   }
+  },
+  {
+   "data": {
+    "slug": "29700",
+    "language": "en-us",
+    "languages": [
+     "en-us"
+    ],
+    "client_code": "workingatbooking",
+    "req_id": "29700",
+    "title": "Booking Holdings Romania - Software Engineer II",
+    "description": "<p>Booking Holdings Romania is a Center of Excellence based in Bucharest, Romania and was created to support the increasing business demands of the Booking Holdings Brands. The Center of Excellence pr",
+    "location_name": "Bucharest - BH",
+    "street_address": "U-Center (3rd floor) 206 Calea Șerban Vodă, district 4,",
+    "city": "Bucharest",
+    "state": "Bucureşti",
+    "country": "Romania",
+    "country_code": "RO",
+    "postal_code": "040215",
+    "location_type": "LAT_LNG",
+    "latitude": 44.43225,
+    "longitude": 26.10626,
+    "categories": [
+     {
+      "name": "IT Services"
+     }
+    ],
+    "tags1": [
+     "Booking Holdings COE Company Hierarchy"
+    ],
+    "brand": "Booking Holdings",
+    "department": "",
+    "recruiter_gateway_id": "104",
+    "salary_value": 0,
+    "salary_min_value": 0,
+    "salary_max_value": 0,
+    "employment_type": "FULL_TIME",
+    "hiring_organization": "Booking Holdings",
+    "hiring_organization_logo": "https://www.bookingholdings.com/wp-content/themes/booking-group/img/svg/bkng_global-desktop-logowhite.svg",
+    "source": "Booking Holdings",
+    "posted_date": "2026-07-03T12:17:00+0000",
+    "apply_url": "https://careers-holdings-workingatbooking.icims.com/jobs/29700/login",
+    "internal": false,
+    "external": false,
+    "searchable": true,
+    "applyable": true,
+    "li_easy_applyable": true,
+    "ats_code": "icims",
+    "hiring_flow_name": "iCIMS ATS Hiring Flow",
+    "isFrontLineAIJob": false,
+    "isApplyFlowJob": false,
+    "meta_data": {
+     "mongo": {
+      "mongo_created": true
+     },
+     "openingjobs": {
+      "openingJobId": "0000f1d3f7dea45007c12e21124013930baf"
+     },
+     "icims": {
+      "jps_is_public": true,
+      "primary_posted_site_object": {
+       "site": "careers-holdings-workingatbooking",
+       "siteId": "1ce74f77-4cd6-4b71-81a4-5379ad01d27f",
+       "datePosted": "2026-07-03T12:17:00+0000"
+      },
+      "date_updated": "2026-09-29T14:59:27Z",
+      "config_keys": {
+       "jobposting.external.company.name": "Booking Holdings",
+       "icims.external.xml.feeds": "icims.accessdubuquejobs.xml.enabled,icims.advantageai.xml.enabled,icims.adzuna.xml.enabled,icims.aeroemploiformation.xml.enabled,icims.agefiph.xml.enabled,icims.allyenergy.xml.enabled,icims.apec.xml.enabled,icims.appcast.xml.enabled,icims.bayard.xml.enabled,icims.bdssolutions.xml.enabled,icims.careerbuilder.xml.enabled,icims.careerarc.xml.enabled,icims.careerjet.xml.enabled,icims.careerlink.xml.enabled,icims.careermd.xml.enabled,icims.caterer.xml.enabled,icims.clearbold.xml.enabled,icims.constructionjobs.xml.enabled,icims.convergesolution.xml.enabled,icims.craigslist.xml.enabled,icims.culinaryagents.xml.enabled,icims.cv-library.xml.enabled,icims.cvaden.xml.enabled,icims.direct-employers.xml.enabled,icims.diversityjobsgroup.xml.enabled,icims.edtech.xml.enabled,icims.firsthand.xml.enabled,icims.flockity.xml.enabled,icims.foorilla.xml.enabled,icims.getit.xml.enabled,icims.greatdane.xml.enabled,icims.haymarket.xml.enabled,icims.hellowork.xml.enabled,icims.hireheroesusa.xml.enabled,icims.hireahero.xml.enabled,icims.hireclix.xml.enabled,icims.hirepurpose.xml.enabled,icims.hiringcafe.xml.enabled,icims.hospitalcareers.xml.enabled,icims.iberempleos.xml.enabled,icims.inautomotive.xml.enabled,icims.indeed.xml.enabled,icims.inhersight.xml.enabled,icims.interactivesites.xml.enabled,icims.irishjobs.xml.enabled,icims.itjobscafe.xml.enabled,icims.jobbio.xml.enabled,icims.jobboardio.xml.enabled,icims.jobcase.xml.enabled,icims.jobget.xml.enabled,icims.jobgether.xml.enabled,icims.jobsite.xml.enabled,icims.jobted.xml.enabled,icims.jooble.xml.enabled,icims.leisurejobs.xml.enabled,icims.tango.xml.enabled,icims.linkedin.xml.enabled,icims.meritbench.xml.enabled,icims.mogul.xml.enabled,icims.monster.xml.enabled,icims.msep.xml.enabled,icims.nijobs.xml.enabled,icims.offerup.xml.enabled,icims.oilandgas.xml.enabled,icims.oneten.xml.enabled,icims.pallet-labs.xml.enabled,icims.paradox.xml.enabled,icims.powertofly.xml.enabled,icims.practicematch.xml.enabled,icims.prideatwork.xml.enabled,icims.professionaldiversitynetwork.xml.enabled,icims.propellum.xml.enabled,icims.puck.xml.enabled,icims.qkly.xml.enabled,icims.radancy.xml.enabled,icims.recruitnet.xml.enabled,icims.recruitics.xml.enabled,icims.recruitmilitary.xml.enabled,icims.referio.xml.enabled,icims.regionsjob.xml.enabled,icims.resume-library.xml.enabled,icims.rssb.xml.enabled,icims.smartjobboard.xml.enabled,icims.snagajob.xml.enabled,icims.socialhp.xml.enabled,icims.sourceamerica.xml.enabled,icims.stealthstartup.xml.enabled,icims.stylecareers.xml.enabled,icims.technojobs.xml.enabled,icims.triad.xml.enabled,icims.unpostedjobs.xml.enabled,icims.upward.xml.enabled,icims.vivian.xml.enabled,icims.vonq.xml.enabled,icims.webengineering.xml.enabled,icims.webscribble.xml.enabled,icims.welcometothejungle.xml.enabled,icims.werkzoeken.xml.enabled,icims.wrightmedia.xml.enabled,icims.ziprecruiter.xml.enabled,icims.zippia.xml.enabled,icims.nexxt.xml.enabled",
+       "portal.id": "196",
+       "ccc.attract.portal.url": "https://www.bookingholdings-coe.com/bookingholdings-coe",
+       "icims.config.web.indeed.easy.apply": "0"
+      },
+      "revision_int": 3,
+      "uuid": "1ccb0be6-df0a-4685-83af-7250e7751ab5"
+     },
+     "ats_job_hash": "4c64d000b7dec9130d4ee58ae31d7e33",
+     "googlejobs": {
+      "jobName": "projects/helpful-passage-853/tenants/cb22eb5b-7e00-0000-0000-007edad744d3/jobs/111661141783913158"
+     },
+     "import_id": "f9bb39ea-b452-433e-9f4f-6ce1e15d8d36",
+     "redirectOnApply": true,
+     "questionservice": {
+      "id": "6128202"
+     },
+     "canonical_url": "https://www.bookingholdings-coe.com/bookingholdings-coe/jobs/29700?lang=en-us",
+     "gdpr": true,
+     "last_mod": "2026-09-29T15:00:15+0000",
+     "elasticsearch": {
+      "es_created": false
+     },
+     "opensearch": {
+      "hit_score": "NaN",
+      "hit_explanation": null,
+      "hit_matched_queries": [
+       "internal",
+       "applyable",
+       "term-language",
+       "searchable",
+       "term-client_code"
+      ],
+      "hit_index": "jobs",
+      "hit_shard": null
+     },
+     "import_source": "ImporterService",
+     "client_code": "workingatbooking"
+    },
+    "update_date": "2026-09-29T15:00:15+0000",
+    "create_date": "2026-07-03T12:17:59+0000",
+    "category": [
+     " IT Services"
+    ],
+    "full_location": "Bucharest, Romania",
+    "short_location": "Bucharest, Romania",
+    "multipleLocations": false
+   }
+  }
+ ],
+ "locations": [],
+ "totalCount": 109,
+ "request_id": false,
+ "meta_data": false,
+ "count": 2
+}

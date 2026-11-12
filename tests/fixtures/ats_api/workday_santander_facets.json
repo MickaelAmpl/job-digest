@@ -1,0 +1,48 @@
+{
+ "total": 1125,
+ "facets": [
+  {
+   "facetParameter": "locationMainGroup",
+   "descriptor": "Location",
+   "values": [
+    {
+     "facetParameter": "locationCountry",
+     "descriptor": "Country",
+     "values": [
+      {
+       "descriptor": "Austria",
+       "id": "d004c0d1a6c84511ab048669fcdf9fd7",
+       "count": 13
+      },
+      {
+       "descriptor": "Germany",
+       "id": "dcc5b7608d8644b3a93716604e78e995",
+       "count": 103
+      },
+      {
+       "descriptor": "Poland",
+       "id": "131d5ac7e3ee4d7b962bdc96e498e412",
+       "count": 8
+      },
+      {
+       "descriptor": "Switzerland",
+       "id": "187134fccb084a0ea9b4b95f23890dbe",
+       "count": 3
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "jobPostings": [
+  {
+   "title": "Investment Banking Analyst",
+   "externalPath": "/job/Madison-Ave-Corp/Investment-Banking-Analyst_Req1555604",
+   "locationsText": "Madison Ave Corp",
+   "postedOn": "Posted 7 Days Ago",
+   "bulletFields": [
+    "Req1555604"
+   ]
+  }
+ ]
+}

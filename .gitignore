@@ -1,0 +1,10 @@
+.env
+*.key
+secrets/
+data/
+out/
+*.db
+__pycache__/
+.pytest_cache/
+cv/source/out/
+!cv/out/

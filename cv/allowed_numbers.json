@@ -1,0 +1,37 @@
+{
+ "note": "Numbers from cv/facts.md that a CV line may use even though the base CV does not show them. CV-usable facts only: no meta dates (08.10.2026, 28.09), no knockout-only figures (permit until 2027). Every other number must already be in the base CV text. Add a number here only with its fact.",
+ "numbers": [
+  {
+   "value": "12",
+   "fact": "Northwind: 12-company LatAm crypto ranking (Zentex)"
+  },
+  {
+   "value": "9",
+   "fact": "Northwind: ~9-country market briefs (Zentex)"
+  },
+  {
+   "value": "2030",
+   "fact": "Northwind: VR market sizing 2022-2030"
+  },
+  {
+   "value": "2022",
+   "fact": "Northwind: VR market sizing 2022-2030; Telegram exit 2022"
+  },
+  {
+   "value": "20",
+   "fact": "availability: 20 h/week under the work permit"
+  },
+  {
+   "value": "100",
+   "fact": "Kestrel: cold emails to about 100 venture funds (Misha 05.11.2026)"
+  },
+  {
+   "value": "200",
+   "fact": "Telegram network: 200-250 ad placements sold per month (Misha 05.11.2026)"
+  },
+  {
+   "value": "250",
+   "fact": "Telegram network: 200-250 ad placements sold per month (Misha 05.11.2026)"
+  }
+ ]
+}

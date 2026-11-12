@@ -1,0 +1,211 @@
+{
+ "meta": {
+  "llms": "https://jobs.volksbank.at/llms.txt",
+  "source": "https://jobs.volksbank.at/",
+  "schema": "https://schema.org/JobPosting"
+ },
+ "@context": "https://schema.org",
+ "@type": "DataFeed",
+ "name": "Active job ads",
+ "dateModified": "2026-10-26T18:05:58.465Z",
+ "numberOfItems": 5,
+ "dataFeedElement": [
+  {
+   "@type": "DataFeedItem",
+   "dateModified": "2026-10-25T05:28:57.000Z",
+   "item": {
+    "@type": "JobPosting",
+    "title": "Initiativbewerbung",
+    "url": "https://jobs.volksbank.at/jobs/51127498/Initiativbewerbung/",
+    "datePosted": "2025-05-22T14:17:48.406+02:00",
+    "identifier": {
+     "name": "Volksbank Wien",
+     "@type": "PropertyValue",
+     "value": 51127498
+    },
+    "description": "<b>Starte deine berufliche Zukunft jetzt!</b> <p>Zeige Initiative und bewirb dich – unabhängig davon, ob gerade eine Stelle ausgeschrieben ist oder nicht. Wir sind immer auf der Suche nach talentierten und engagierten Menschen, die Lust haben, gemeinsam mit uns zu wachsen und sich weiterzuentwickeln",
+    "employmentType": "OTHER",
+    "hiringOrganization": {
+     "@id": "https://jobs.volksbank.at",
+     "url": "https://jobs.volksbank.at",
+     "logo": "https://pcw-cdn.softgarden.de/uploads/volksbankwien/de/widget/header/design/image_1hx832lzmkcj9l?timestamp=1723199260834",
+     "name": "Volksbank Wien",
+     "@type": "Organization",
+     "sameAs": "https://jobs.volksbank.at",
+     "industry": "Banking Industry"
+    },
+    "jobLocation": {
+     "@type": "Place",
+     "address": {
+      "@type": "PostalAddress",
+      "postalCode": "-",
+      "addressRegion": "Wien",
+      "streetAddress": "-",
+      "addressCountry": "Österreich",
+      "addressLocality": "Wien"
+     }
+    }
+   }
+  },
+  {
+   "@type": "DataFeedItem",
+   "dateModified": "2026-10-25T05:32:00.000Z",
+   "item": {
+    "@type": "JobPosting",
+    "title": "Schule fertig erster Job!",
+    "url": "https://jobs.volksbank.at/jobs/51194428/Schule-fertig-erster-Job-/",
+    "datePosted": "2026-08-05T13:43:16.607+02:00",
+    "identifier": {
+     "name": "Volksbank Tirol",
+     "@type": "PropertyValue",
+     "value": 51194428
+    },
+    "description": "<p>Die Nähe zu unseren Kund:innen und deren Vertrauen in unsere Beratung ist maßgeblich für unseren Erfolg. Als stark in der Region verankerte Bank unterstützt die Volksbank Tirol Privatkund:innen sowie kleine und mittlere Unternehmen. Wir sind erste Ansprechpartnerin in allen finanziellen Angelegen",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+     "@id": "https://jobs.volksbank.at",
+     "url": "https://jobs.volksbank.at",
+     "logo": "https://pcw-cdn.softgarden.de/uploads/volksbankwien/de/widget/header/design/image_1hx832lzmkcj9l?timestamp=1723199260834",
+     "name": "Volksbank Tirol",
+     "@type": "Organization",
+     "sameAs": "https://jobs.volksbank.at",
+     "industry": "Banking Industry"
+    },
+    "jobLocation": {
+     "@type": "Place",
+     "address": {
+      "@type": "PostalAddress",
+      "postalCode": "-",
+      "addressRegion": "Tirol",
+      "streetAddress": "-",
+      "addressCountry": "Österreich",
+      "addressLocality": "Innsbruck"
+     }
+    }
+   }
+  },
+  {
+   "@type": "DataFeedItem",
+   "dateModified": "2026-10-25T06:12:44.000Z",
+   "item": {
+    "@type": "JobPosting",
+    "title": "Immobilienmakler:in (m/w/d)",
+    "url": "https://jobs.volksbank.at/jobs/63336184/Immobilienmakler-in-m-w-d-/",
+    "datePosted": "2026-03-06T07:31:44.080+01:00",
+    "identifier": {
+     "name": "Volksbank Kärnten",
+     "@type": "PropertyValue",
+     "value": 63336184
+    },
+    "description": "<h2>FÜR ALLE, DIE GEMEINSAM WACHSEN WOLLEN</h2> <p>Zur Erweiterung unseres Netzwerks suchen wir für <strong>VB Realitäten - die Immobiliengesellschaft der Volksbank Kärnten</strong> - engagierte(r) Immobilienmakler:innen auf <strong>selbstständiger Basis für die Regionen Oberkärnten/Osttirol und Lav",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+     "@id": "https://jobs.volksbank.at",
+     "url": "https://jobs.volksbank.at",
+     "logo": "https://pcw-cdn.softgarden.de/uploads/volksbankwien/de/widget/header/design/image_1hx832lzmkcj9l?timestamp=1723199260834",
+     "name": "Volksbank Kärnten",
+     "@type": "Organization",
+     "sameAs": "https://jobs.volksbank.at",
+     "industry": "Banking Industry",
+     "aggregateRating": {
+      "bestRating": 5,
+      "ratingCount": 27,
+      "ratingValue": 4.85,
+      "worstRating": 4
+     }
+    },
+    "jobLocation": {
+     "@type": "Place",
+     "address": {
+      "@type": "PostalAddress",
+      "postalCode": "-",
+      "addressRegion": "Kärnten",
+      "streetAddress": "-",
+      "addressCountry": "Österreich",
+      "addressLocality": "-"
+     }
+    }
+   }
+  },
+  {
+   "@type": "DataFeedItem",
+   "dateModified": "2026-10-25T05:28:55.000Z",
+   "item": {
+    "@type": "JobPosting",
+    "title": "Filialleiter:in Rankweil (m/w/d)",
+    "url": "https://jobs.volksbank.at/jobs/66398348/Filialleiter-in-Rankweil-m-w-d-/",
+    "datePosted": "2026-09-30T15:58:48.370+02:00",
+    "identifier": {
+     "name": "Volksbank Vorarlberg",
+     "@type": "PropertyValue",
+     "value": 66398348
+    },
+    "description": "<b>Für alle, die gemeinsam Erfolge feiern.</b> <p style=\"text-align: justify;\"><span style=\"font-family: arial, helvetica, sans-serif; font-size: 16px;\">Die Nä</span><span style=\"font-family: arial, helvetica, sans-serif;\">he zu unseren Kunden und deren Vertrauen in unsere Beratung ist maßgeblich fü",
+    "employmentType": "OTHER",
+    "hiringOrganization": {
+     "@id": "https://jobs.volksbank.at",
+     "url": "https://jobs.volksbank.at",
+     "logo": "https://pcw-cdn.softgarden.de/uploads/volksbankwien/de/widget/header/design/image_1hx832lzmkcj9l?timestamp=1723199260834",
+     "name": "Volksbank Vorarlberg",
+     "@type": "Organization",
+     "sameAs": "https://jobs.volksbank.at",
+     "industry": "Banking Industry",
+     "aggregateRating": {
+      "bestRating": 5,
+      "ratingCount": 36,
+      "ratingValue": 4.76,
+      "worstRating": 2.33
+     }
+    },
+    "jobLocation": {
+     "@type": "Place",
+     "address": {
+      "@type": "PostalAddress",
+      "postalCode": "-",
+      "addressRegion": "Vorarlberg",
+      "streetAddress": "-",
+      "addressCountry": "Österreich",
+      "addressLocality": "Rankweil"
+     }
+    }
+   }
+  },
+  {
+   "@type": "DataFeedItem",
+   "dateModified": "2026-10-25T05:31:51.000Z",
+   "item": {
+    "@type": "JobPosting",
+    "title": "Kommerzkundenberaterin/Kommerzkundenberater für die Regionaldirektion Wiener Neustadt (w/m/d)",
+    "url": "https://jobs.volksbank.at/jobs/65568921/Kommerzkundenberaterin-Kommerzkundenberater-f%C3%BCr-die-Regionaldirektion-Wiener-Neustadt-w-m-d-/",
+    "datePosted": "2026-10-18T09:42:02.414+02:00",
+    "identifier": {
+     "name": "Volksbank Wien",
+     "@type": "PropertyValue",
+     "value": 65568921
+    },
+    "description": "<h1><span style=\"color: rgb(0, 25, 176);\">Bei uns dreht sich alles um unsere Kund:innen.</span></h1><p>Du hast&nbsp;<strong>Freude am Kontakt mit Menschen</strong>&nbsp;und möchtest zudem&nbsp;<strong>Verantwortung</strong>&nbsp;für Deine Region übernehmen?</p><p>Dann bist Du bei uns genau richtig. ",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+     "@id": "https://jobs.volksbank.at",
+     "url": "https://jobs.volksbank.at",
+     "logo": "https://pcw-cdn.softgarden.de/uploads/volksbankwien/de/widget/header/design/image_1hx832lzmkcj9l?timestamp=1723199260834",
+     "name": "Volksbank Wien",
+     "@type": "Organization",
+     "sameAs": "https://jobs.volksbank.at",
+     "industry": "Banking Industry"
+    },
+    "jobLocation": {
+     "@type": "Place",
+     "address": {
+      "@type": "PostalAddress",
+      "postalCode": "-",
+      "addressRegion": "Niederösterreich",
+      "streetAddress": "-",
+      "addressCountry": "Österreich",
+      "addressLocality": "Wiener Neustadt"
+     }
+    }
+   }
+  }
+ ]
+}

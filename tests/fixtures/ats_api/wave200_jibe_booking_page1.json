@@ -1,0 +1,358 @@
+{
+ "jobs": [
+  {
+   "data": {
+    "slug": "30585",
+    "language": "en-us",
+    "languages": [
+     "en-us"
+    ],
+    "client_code": "workingatbooking",
+    "req_id": "30585",
+    "title": "Corporate Systems Engineer",
+    "description": "<p style=\"line-height: 1.2;\"><strong><span style=\"font-size: 9pt; font-family: Verdana, sans-serif;\">About Us: </span></strong><span style=\"font-size: 9pt; font-family: Verdana, sans-serif;\">At Bookin",
+    "location_name": "Amsterdam Campus",
+    "street_address": "Oosterdokskade 163,",
+    "city": "Amsterdam",
+    "state": "North Holland",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "postal_code": "1011 DL",
+    "location_type": "LAT_LNG",
+    "latitude": 52.37403,
+    "longitude": 4.88969,
+    "categories": [
+     {
+      "name": "IT Services"
+     }
+    ],
+    "tags1": [
+     "Booking.com Company Hierarchy"
+    ],
+    "brand": "Booking.com",
+    "department": "",
+    "recruiter_gateway_id": "103",
+    "salary_value": 0,
+    "salary_min_value": 0,
+    "salary_max_value": 0,
+    "employment_type": "FULL_TIME",
+    "hiring_organization": "Booking.com",
+    "hiring_organization_logo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fbookingcom-1.svg&tbnid=aYVSXTru4-zj2M&vet=12ahUKEwjpxpKWs7CCAxXtKt4AHa19CdkQMygEegQIARBw..i&imgrefurl=https%3A%2F%2Fworldvectorlogo.com%2Flogo%2Fbookingcom-1&docid=8rsjzthSju2GyM&w=2500&h=2445&q=booking.com%20logo&ved=2ahUKEwjpxpKWs7CCAxXtKt4AHa19CdkQMygEegQIARBw",
+    "source": "Booking.com",
+    "posted_date": "2026-11-09T12:50:00+0000",
+    "apply_url": "https://external-workingatbooking.icims.com/jobs/30585/login",
+    "internal": false,
+    "external": false,
+    "searchable": true,
+    "applyable": true,
+    "li_easy_applyable": true,
+    "ats_code": "icims",
+    "hiring_flow_name": "iCIMS ATS Hiring Flow",
+    "isFrontLineAIJob": false,
+    "isApplyFlowJob": false,
+    "meta_data": {
+     "mongo": {
+      "mongo_created": true
+     },
+     "openingjobs": {
+      "openingJobId": "00001594ee5c0729f8004c3c28cfb7acca4f"
+     },
+     "icims": {
+      "jps_is_public": true,
+      "primary_posted_site_object": {
+       "site": "external-workingatbooking",
+       "siteId": "9f6ebaeb-dea0-45a1-bf1b-9d5d45f63ee2",
+       "datePosted": "2026-11-09T12:50:00+0000"
+      },
+      "date_updated": "2026-11-09T12:50:27Z",
+      "config_keys": {
+       "jobposting.external.company.name": "Booking.com",
+       "icims.external.xml.feeds": "icims.accessdubuquejobs.xml.enabled,icims.advantageai.xml.enabled,icims.adzuna.xml.enabled,icims.aeroemploiformation.xml.enabled,icims.agefiph.xml.enabled,icims.allyenergy.xml.enabled,icims.apec.xml.enabled,icims.appcast.xml.enabled,icims.bayard.xml.enabled,icims.bdssolutions.xml.enabled,icims.careerbuilder.xml.enabled,icims.careerarc.xml.enabled,icims.careerjet.xml.enabled,icims.careerlink.xml.enabled,icims.careermd.xml.enabled,icims.caterer.xml.enabled,icims.clearbold.xml.enabled,icims.constructionjobs.xml.enabled,icims.convergesolution.xml.enabled,icims.craigslist.xml.enabled,icims.culinaryagents.xml.enabled,icims.cv-library.xml.enabled,icims.cvaden.xml.enabled,icims.direct-employers.xml.enabled,icims.diversityjobsgroup.xml.enabled,icims.edtech.xml.enabled,icims.firsthand.xml.enabled,icims.flockity.xml.enabled,icims.foorilla.xml.enabled,icims.getit.xml.enabled,icims.greatdane.xml.enabled,icims.haymarket.xml.enabled,icims.hellowork.xml.enabled,icims.hireheroesusa.xml.enabled,icims.hireahero.xml.enabled,icims.hireclix.xml.enabled,icims.hirepurpose.xml.enabled,icims.hiringcafe.xml.enabled,icims.hospitalcareers.xml.enabled,icims.iberempleos.xml.enabled,icims.inautomotive.xml.enabled,icims.indeed.xml.enabled,icims.inhersight.xml.enabled,icims.interactivesites.xml.enabled,icims.irishjobs.xml.enabled,icims.itjobscafe.xml.enabled,icims.jobbio.xml.enabled,icims.jobboardio.xml.enabled,icims.jobcase.xml.enabled,icims.jobget.xml.enabled,icims.jobgether.xml.enabled,icims.jobsite.xml.enabled,icims.jobted.xml.enabled,icims.jooble.xml.enabled,icims.leisurejobs.xml.enabled,icims.tango.xml.enabled,icims.linkedin.xml.enabled,icims.meritbench.xml.enabled,icims.mogul.xml.enabled,icims.monster.xml.enabled,icims.msep.xml.enabled,icims.nijobs.xml.enabled,icims.offerup.xml.enabled,icims.oilandgas.xml.enabled,icims.oneten.xml.enabled,icims.pallet-labs.xml.enabled,icims.paradox.xml.enabled,icims.powertofly.xml.enabled,icims.practicematch.xml.enabled,icims.prideatwork.xml.enabled,icims.professionaldiversitynetwork.xml.enabled,icims.propellum.xml.enabled,icims.puck.xml.enabled,icims.qkly.xml.enabled,icims.radancy.xml.enabled,icims.recruitnet.xml.enabled,icims.recruitics.xml.enabled,icims.recruitmilitary.xml.enabled,icims.referio.xml.enabled,icims.regionsjob.xml.enabled,icims.resume-library.xml.enabled,icims.rssb.xml.enabled,icims.smartjobboard.xml.enabled,icims.snagajob.xml.enabled,icims.socialhp.xml.enabled,icims.sourceamerica.xml.enabled,icims.stealthstartup.xml.enabled,icims.stylecareers.xml.enabled,icims.technojobs.xml.enabled,icims.triad.xml.enabled,icims.unpostedjobs.xml.enabled,icims.upward.xml.enabled,icims.vivian.xml.enabled,icims.vonq.xml.enabled,icims.webengineering.xml.enabled,icims.webscribble.xml.enabled,icims.welcometothejungle.xml.enabled,icims.werkzoeken.xml.enabled,icims.wrightmedia.xml.enabled,icims.ziprecruiter.xml.enabled,icims.zippia.xml.enabled,icims.nexxt.xml.enabled",
+       "portal.id": "201",
+       "ccc.attract.portal.url": "https://jobs.booking.com/booking",
+       "icims.config.web.indeed.easy.apply": "0"
+      },
+      "revision_int": 1,
+      "uuid": "4f181eb7-7bdd-4080-82f9-67e436a77be0"
+     },
+     "ats_job_hash": "20a5d73c9009b31eebb35586c158d91b",
+     "googlejobs": {
+      "jobName": "projects/helpful-passage-853/tenants/cb22eb5b-7e00-0000-0000-007edad744d3/jobs/127434568360698566"
+     },
+     "import_id": "7d3fdfe5-b617-4216-acef-e6aad415517f",
+     "redirectOnApply": true,
+     "questionservice": {
+      "id": "6254463"
+     },
+     "canonical_url": "https://jobs.booking.com/booking/jobs/30585?lang=en-us",
+     "gdpr": true,
+     "last_mod": "2026-11-09T12:50:30+0000",
+     "elasticsearch": {
+      "es_created": true
+     },
+     "opensearch": {
+      "hit_score": "NaN",
+      "hit_explanation": null,
+      "hit_matched_queries": [
+       "internal",
+       "applyable",
+       "term-language",
+       "searchable",
+       "term-client_code"
+      ],
+      "hit_index": "jobs",
+      "hit_shard": null
+     },
+     "import_source": "ImporterService",
+     "client_code": "workingatbooking"
+    },
+    "update_date": "2026-11-09T12:50:30+0000",
+    "create_date": "2026-11-09T12:50:30+0000",
+    "category": [
+     " IT Services"
+    ],
+    "full_location": "Amsterdam, Netherlands",
+    "short_location": "Amsterdam, Netherlands",
+    "multipleLocations": false
+   }
+  },
+  {
+   "data": {
+    "slug": "30591",
+    "language": "en-us",
+    "languages": [
+     "en-us"
+    ],
+    "client_code": "workingatbooking",
+    "req_id": "30591",
+    "title": "Revenue Analyst - Flights",
+    "description": "<p><strong>About Us:</strong> At Booking.com, data drives our decisions. Technology is at our core. And innovation is everywhere. But our company is more than datasets, lines of code or A/B tests. We'",
+    "location_name": "Amsterdam Campus",
+    "street_address": "Oosterdokskade 163,",
+    "city": "Amsterdam",
+    "state": "North Holland",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "postal_code": "1011 DL",
+    "location_type": "LAT_LNG",
+    "latitude": 52.37403,
+    "longitude": 4.88969,
+    "categories": [
+     {
+      "name": "Commercial"
+     }
+    ],
+    "tags1": [
+     "Booking.com Company Hierarchy"
+    ],
+    "brand": "Booking.com",
+    "department": "",
+    "recruiter_gateway_id": "103",
+    "salary_value": 0,
+    "salary_min_value": 0,
+    "salary_max_value": 0,
+    "employment_type": "FULL_TIME",
+    "hiring_organization": "Booking.com",
+    "hiring_organization_logo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fbookingcom-1.svg&tbnid=aYVSXTru4-zj2M&vet=12ahUKEwjpxpKWs7CCAxXtKt4AHa19CdkQMygEegQIARBw..i&imgrefurl=https%3A%2F%2Fworldvectorlogo.com%2Flogo%2Fbookingcom-1&docid=8rsjzthSju2GyM&w=2500&h=2445&q=booking.com%20logo&ved=2ahUKEwjpxpKWs7CCAxXtKt4AHa19CdkQMygEegQIARBw",
+    "source": "Booking.com",
+    "posted_date": "2026-11-06T14:20:00+0000",
+    "apply_url": "https://external-workingatbooking.icims.com/jobs/30591/login",
+    "internal": false,
+    "external": false,
+    "searchable": true,
+    "applyable": true,
+    "li_easy_applyable": true,
+    "ats_code": "icims",
+    "hiring_flow_name": "iCIMS ATS Hiring Flow",
+    "isFrontLineAIJob": false,
+    "isApplyFlowJob": false,
+    "meta_data": {
+     "mongo": {
+      "mongo_created": true
+     },
+     "openingjobs": {
+      "openingJobId": "00002af1282750b6a4a7e74605c104825adc"
+     },
+     "icims": {
+      "jps_is_public": true,
+      "primary_posted_site_object": {
+       "site": "external-workingatbooking",
+       "siteId": "9f6ebaeb-dea0-45a1-bf1b-9d5d45f63ee2",
+       "datePosted": "2026-11-06T14:20:00+0000"
+      },
+      "date_updated": "2026-11-06T14:21:02Z",
+      "config_keys": {
+       "jobposting.external.company.name": "Booking.com",
+       "icims.external.xml.feeds": "icims.accessdubuquejobs.xml.enabled,icims.advantageai.xml.enabled,icims.adzuna.xml.enabled,icims.aeroemploiformation.xml.enabled,icims.agefiph.xml.enabled,icims.allyenergy.xml.enabled,icims.apec.xml.enabled,icims.appcast.xml.enabled,icims.bayard.xml.enabled,icims.bdssolutions.xml.enabled,icims.careerbuilder.xml.enabled,icims.careerarc.xml.enabled,icims.careerjet.xml.enabled,icims.careerlink.xml.enabled,icims.careermd.xml.enabled,icims.caterer.xml.enabled,icims.clearbold.xml.enabled,icims.constructionjobs.xml.enabled,icims.convergesolution.xml.enabled,icims.craigslist.xml.enabled,icims.culinaryagents.xml.enabled,icims.cv-library.xml.enabled,icims.cvaden.xml.enabled,icims.direct-employers.xml.enabled,icims.diversityjobsgroup.xml.enabled,icims.edtech.xml.enabled,icims.firsthand.xml.enabled,icims.flockity.xml.enabled,icims.foorilla.xml.enabled,icims.getit.xml.enabled,icims.greatdane.xml.enabled,icims.haymarket.xml.enabled,icims.hellowork.xml.enabled,icims.hireheroesusa.xml.enabled,icims.hireahero.xml.enabled,icims.hireclix.xml.enabled,icims.hirepurpose.xml.enabled,icims.hiringcafe.xml.enabled,icims.hospitalcareers.xml.enabled,icims.iberempleos.xml.enabled,icims.inautomotive.xml.enabled,icims.indeed.xml.enabled,icims.inhersight.xml.enabled,icims.interactivesites.xml.enabled,icims.irishjobs.xml.enabled,icims.itjobscafe.xml.enabled,icims.jobbio.xml.enabled,icims.jobboardio.xml.enabled,icims.jobcase.xml.enabled,icims.jobget.xml.enabled,icims.jobgether.xml.enabled,icims.jobsite.xml.enabled,icims.jobted.xml.enabled,icims.jooble.xml.enabled,icims.leisurejobs.xml.enabled,icims.tango.xml.enabled,icims.linkedin.xml.enabled,icims.meritbench.xml.enabled,icims.mogul.xml.enabled,icims.monster.xml.enabled,icims.msep.xml.enabled,icims.nijobs.xml.enabled,icims.offerup.xml.enabled,icims.oilandgas.xml.enabled,icims.oneten.xml.enabled,icims.pallet-labs.xml.enabled,icims.paradox.xml.enabled,icims.powertofly.xml.enabled,icims.practicematch.xml.enabled,icims.prideatwork.xml.enabled,icims.professionaldiversitynetwork.xml.enabled,icims.propellum.xml.enabled,icims.puck.xml.enabled,icims.qkly.xml.enabled,icims.radancy.xml.enabled,icims.recruitnet.xml.enabled,icims.recruitics.xml.enabled,icims.recruitmilitary.xml.enabled,icims.referio.xml.enabled,icims.regionsjob.xml.enabled,icims.resume-library.xml.enabled,icims.rssb.xml.enabled,icims.smartjobboard.xml.enabled,icims.snagajob.xml.enabled,icims.socialhp.xml.enabled,icims.sourceamerica.xml.enabled,icims.stealthstartup.xml.enabled,icims.stylecareers.xml.enabled,icims.technojobs.xml.enabled,icims.triad.xml.enabled,icims.unpostedjobs.xml.enabled,icims.upward.xml.enabled,icims.vivian.xml.enabled,icims.vonq.xml.enabled,icims.webengineering.xml.enabled,icims.webscribble.xml.enabled,icims.welcometothejungle.xml.enabled,icims.werkzoeken.xml.enabled,icims.wrightmedia.xml.enabled,icims.ziprecruiter.xml.enabled,icims.zippia.xml.enabled,icims.nexxt.xml.enabled",
+       "portal.id": "201",
+       "ccc.attract.portal.url": "https://jobs.booking.com/booking",
+       "icims.config.web.indeed.easy.apply": "0"
+      },
+      "revision_int": 1,
+      "uuid": "5bfb5592-66dc-4769-8f7c-30302eafe971"
+     },
+     "ats_job_hash": "fc24b6fe4daa2c0b449f7a967d47eea7",
+     "googlejobs": {
+      "jobName": "projects/helpful-passage-853/tenants/cb22eb5b-7e00-0000-0000-007edad744d3/jobs/114669386538590918"
+     },
+     "import_id": "4a079fe8-ab73-45d2-9668-b316565dfd4e",
+     "redirectOnApply": true,
+     "questionservice": {
+      "id": "6253454"
+     },
+     "canonical_url": "https://jobs.booking.com/booking/jobs/30591?lang=en-us",
+     "gdpr": true,
+     "last_mod": "2026-11-06T14:21:23+0000",
+     "elasticsearch": {
+      "es_created": true
+     },
+     "opensearch": {
+      "hit_score": "NaN",
+      "hit_explanation": null,
+      "hit_matched_queries": [
+       "internal",
+       "applyable",
+       "term-language",
+       "searchable",
+       "term-client_code"
+      ],
+      "hit_index": "jobs",
+      "hit_shard": null
+     },
+     "import_source": "ImporterService",
+     "client_code": "workingatbooking"
+    },
+    "update_date": "2026-11-06T14:21:23+0000",
+    "create_date": "2026-11-06T14:21:23+0000",
+    "category": [
+     " Commercial"
+    ],
+    "full_location": "Amsterdam, Netherlands",
+    "short_location": "Amsterdam, Netherlands",
+    "multipleLocations": false
+   }
+  },
+  {
+   "data": {
+    "slug": "13140",
+    "language": "en-us",
+    "languages": [
+     "en-us"
+    ],
+    "client_code": "workingatbooking",
+    "req_id": "13140",
+    "title": "Engineering Manager",
+    "description": "<p style=\"margin-top: 12pt; margin-bottom: 12pt;\"><span style=\"font-size: 10pt; font-family: arial, helvetica, sans-serif;\"><em><span style=\"color: #000000; font-weight: 400;\">At Booking.com, data dri",
+    "location_name": "Amsterdam Campus",
+    "street_address": "Oosterdokskade 163,",
+    "city": "Amsterdam",
+    "state": "North Holland",
+    "country": "Netherlands",
+    "country_code": "NL",
+    "postal_code": "1011 DL",
+    "location_type": "LAT_LNG",
+    "latitude": 52.37403,
+    "longitude": 4.88969,
+    "categories": [
+     {
+      "name": "Engineering"
+     }
+    ],
+    "tags1": [
+     "Booking.com Company Hierarchy"
+    ],
+    "brand": "Booking.com",
+    "department": "",
+    "recruiter_gateway_id": "103",
+    "salary_value": 0,
+    "salary_min_value": 0,
+    "salary_max_value": 0,
+    "employment_type": "FULL_TIME",
+    "qualifications": "<p style=\"margin: 0px;\">Java</p><p style=\"margin: 0px;\">Python</p><p style=\"margin: 0px;\">Perl</p><p style=\"margin: 0px;\">PHP</p><p style=\"margin: 0px;\">Ruby</p><p style=\"margin: 0px;\">C#</p><p style=\"margin: 0px;\">Golang</p>",
+    "hiring_organization": "Booking.com",
+    "hiring_organization_logo": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.worldvectorlogo.com%2Flogos%2Fbookingcom-1.svg&tbnid=aYVSXTru4-zj2M&vet=12ahUKEwjpxpKWs7CCAxXtKt4AHa19CdkQMygEegQIARBw..i&imgrefurl=https%3A%2F%2Fworldvectorlogo.com%2Flogo%2Fbookingcom-1&docid=8rsjzthSju2GyM&w=2500&h=2445&q=booking.com%20logo&ved=2ahUKEwjpxpKWs7CCAxXtKt4AHa19CdkQMygEegQIARBw",
+    "source": "Booking.com",
+    "posted_date": "2026-11-06T13:41:00+0000",
+    "apply_url": "https://external-workingatbooking.icims.com/jobs/13140/login",
+    "internal": false,
+    "external": false,
+    "searchable": true,
+    "applyable": true,
+    "li_easy_applyable": true,
+    "ats_code": "icims",
+    "hiring_flow_name": "iCIMS ATS Hiring Flow",
+    "isFrontLineAIJob": false,
+    "isApplyFlowJob": false,
+    "meta_data": {
+     "mongo": {
+      "mongo_created": true
+     },
+     "openingjobs": {
+      "openingJobId": "00007e44a480cc0edc6c9e61c0a230051620"
+     },
+     "icims": {
+      "jps_is_public": true,
+      "primary_posted_site_object": {
+       "site": "external-workingatbooking",
+       "siteId": "9f6ebaeb-dea0-45a1-bf1b-9d5d45f63ee2",
+       "datePosted": "2026-11-06T13:41:00+0000"
+      },
+      "date_updated": "2026-11-09T13:16:44Z",
+      "config_keys": {
+       "jobposting.external.company.name": "Booking.com",
+       "icims.external.xml.feeds": "icims.accessdubuquejobs.xml.enabled,icims.advantageai.xml.enabled,icims.adzuna.xml.enabled,icims.aeroemploiformation.xml.enabled,icims.agefiph.xml.enabled,icims.allyenergy.xml.enabled,icims.apec.xml.enabled,icims.appcast.xml.enabled,icims.bayard.xml.enabled,icims.bdssolutions.xml.enabled,icims.careerbuilder.xml.enabled,icims.careerarc.xml.enabled,icims.careerjet.xml.enabled,icims.careerlink.xml.enabled,icims.careermd.xml.enabled,icims.caterer.xml.enabled,icims.clearbold.xml.enabled,icims.constructionjobs.xml.enabled,icims.convergesolution.xml.enabled,icims.craigslist.xml.enabled,icims.culinaryagents.xml.enabled,icims.cv-library.xml.enabled,icims.cvaden.xml.enabled,icims.direct-employers.xml.enabled,icims.diversityjobsgroup.xml.enabled,icims.edtech.xml.enabled,icims.firsthand.xml.enabled,icims.flockity.xml.enabled,icims.foorilla.xml.enabled,icims.getit.xml.enabled,icims.greatdane.xml.enabled,icims.haymarket.xml.enabled,icims.hellowork.xml.enabled,icims.hireheroesusa.xml.enabled,icims.hireahero.xml.enabled,icims.hireclix.xml.enabled,icims.hirepurpose.xml.enabled,icims.hiringcafe.xml.enabled,icims.hospitalcareers.xml.enabled,icims.iberempleos.xml.enabled,icims.inautomotive.xml.enabled,icims.indeed.xml.enabled,icims.inhersight.xml.enabled,icims.interactivesites.xml.enabled,icims.irishjobs.xml.enabled,icims.itjobscafe.xml.enabled,icims.jobbio.xml.enabled,icims.jobboardio.xml.enabled,icims.jobcase.xml.enabled,icims.jobget.xml.enabled,icims.jobgether.xml.enabled,icims.jobsite.xml.enabled,icims.jobted.xml.enabled,icims.jooble.xml.enabled,icims.leisurejobs.xml.enabled,icims.tango.xml.enabled,icims.linkedin.xml.enabled,icims.meritbench.xml.enabled,icims.mogul.xml.enabled,icims.monster.xml.enabled,icims.msep.xml.enabled,icims.nijobs.xml.enabled,icims.offerup.xml.enabled,icims.oilandgas.xml.enabled,icims.oneten.xml.enabled,icims.pallet-labs.xml.enabled,icims.paradox.xml.enabled,icims.powertofly.xml.enabled,icims.practicematch.xml.enabled,icims.prideatwork.xml.enabled,icims.professionaldiversitynetwork.xml.enabled,icims.propellum.xml.enabled,icims.puck.xml.enabled,icims.qkly.xml.enabled,icims.radancy.xml.enabled,icims.recruitnet.xml.enabled,icims.recruitics.xml.enabled,icims.recruitmilitary.xml.enabled,icims.referio.xml.enabled,icims.regionsjob.xml.enabled,icims.resume-library.xml.enabled,icims.rssb.xml.enabled,icims.smartjobboard.xml.enabled,icims.snagajob.xml.enabled,icims.socialhp.xml.enabled,icims.sourceamerica.xml.enabled,icims.stealthstartup.xml.enabled,icims.stylecareers.xml.enabled,icims.technojobs.xml.enabled,icims.triad.xml.enabled,icims.unpostedjobs.xml.enabled,icims.upward.xml.enabled,icims.vivian.xml.enabled,icims.vonq.xml.enabled,icims.webengineering.xml.enabled,icims.webscribble.xml.enabled,icims.welcometothejungle.xml.enabled,icims.werkzoeken.xml.enabled,icims.wrightmedia.xml.enabled,icims.ziprecruiter.xml.enabled,icims.zippia.xml.enabled,icims.nexxt.xml.enabled",
+       "portal.id": "201",
+       "ccc.attract.portal.url": "https://jobs.booking.com/booking",
+       "icims.config.web.indeed.easy.apply": "0"
+      },
+      "revision_int": 5,
+      "uuid": "bb473e41-b6ec-49ad-a3aa-01356cd43407"
+     },
+     "ats_job_hash": "a2baa28a383668e3074eaf129bd4882a",
+     "googlejobs": {
+      "jobName": "projects/helpful-passage-853/tenants/cb22eb5b-7e00-0000-0000-007edad744d3/jobs/109172515594478278"
+     },
+     "import_id": "6ce78dca-c440-4e72-9513-df554805727e",
+     "redirectOnApply": true,
+     "questionservice": {
+      "id": "5550394"
+     },
+     "canonical_url": "https://jobs.booking.com/booking/jobs/13140?lang=en-us",
+     "gdpr": true,
+     "last_mod": "2026-11-09T13:17:32+0000",
+     "elasticsearch": {
+      "es_created": false
+     },
+     "opensearch": {
+      "hit_score": "NaN",
+      "hit_explanation": null,
+      "hit_matched_queries": [
+       "internal",
+       "applyable",
+       "term-language",
+       "searchable",
+       "term-client_code"
+      ],
+      "hit_index": "jobs",
+      "hit_shard": null
+     },
+     "import_source": "ImporterService",
+     "client_code": "workingatbooking"
+    },
+    "update_date": "2026-11-09T13:17:32+0000",
+    "create_date": "2026-11-06T13:42:23+0000",
+    "category": [
+     " Engineering"
+    ],
+    "full_location": "Amsterdam, Netherlands",
+    "short_location": "Amsterdam, Netherlands",
+    "multipleLocations": false
+   }
+  }
+ ],
+ "locations": [],
+ "totalCount": 109,
+ "request_id": false,
+ "meta_data": false,
+ "count": 3
+}

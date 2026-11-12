@@ -1,0 +1,515 @@
+{
+ "items": [
+  {
+   "SearchId": 1,
+   "Keyword": null,
+   "CorrectedKeyword": null,
+   "UseExactKeywordFlag": false,
+   "SuggestedKeyword": null,
+   "ExecuteSpellCheckFlag": true,
+   "Location": null,
+   "LocationId": null,
+   "Radius": 0,
+   "RadiusUnit": "MI",
+   "SelectedTitlesFacet": null,
+   "SelectedCategoriesFacet": null,
+   "SelectedPostingDatesFacet": null,
+   "SelectedLocationsFacet": null,
+   "LastSelectedFacet": null,
+   "Facets": "LOCATIONS;WORK_LOCATIONS;TITLES;CATEGORIES;ORGANIZATIONS;POSTING_DATES;FLEX_FIELDS",
+   "Offset": 0,
+   "Limit": 50,
+   "SortBy": "POSTING_DATES_DESC",
+   "TotalJobsCount": 3,
+   "Latitude": null,
+   "Longitude": null,
+   "SiteNumber": "CX_2001",
+   "JobFamilyId": null,
+   "PostingStartDate": null,
+   "PostingEndDate": null,
+   "SelectedWorkLocationsFacet": null,
+   "RequisitionId": null,
+   "CandidateNumber": null,
+   "WorkLocationZipCode": null,
+   "WorkLocationCountryCode": null,
+   "SelectedFlexFieldsFacets": null,
+   "OrganizationId": null,
+   "SelectedOrganizationsFacet": null,
+   "UserTargetFacetName": null,
+   "UserTargetFacetInputTerm": null,
+   "HotJobFlag": null,
+   "WorkplaceType": null,
+   "SelectedWorkplaceTypesFacet": null,
+   "BotQRShortCode": null,
+   "categoriesFacet": [
+    {
+     "Id": 300000121305066,
+     "Name": "Research",
+     "TotalCount": 123
+    },
+    {
+     "Id": 300000121305069,
+     "Name": "Research Project Management",
+     "TotalCount": 18
+    },
+    {
+     "Id": 300000121305039,
+     "Name": "Information Technology",
+     "TotalCount": 6
+    },
+    {
+     "Id": 300000121305033,
+     "Name": "Data Collection",
+     "TotalCount": 5
+    },
+    {
+     "Id": 300000121305015,
+     "Name": "Data Processing, Analysis & Reporting",
+     "TotalCount": 4
+    },
+    {
+     "Id": 300000121305027,
+     "Name": "Operations Project Management",
+     "TotalCount": 4
+    },
+    {
+     "Id": 300000121305030,
+     "Name": "Research Knowledge",
+     "TotalCount": 4
+    },
+    {
+     "Id": 300000121305063,
+     "Name": "Advisory",
+     "TotalCount": 4
+    },
+    {
+     "Id": 300000121305018,
+     "Name": "Survey Construction",
+     "TotalCount": 2
+    },
+    {
+     "Id": 300000121305060,
+     "Name": "Human Resources",
+     "TotalCount": 2
+    }
+   ],
+   "locationsFacet": [
+    {
+     "Id": 300000000345058,
+     "Name": "United Kingdom",
+     "TotalCount": 39
+    },
+    {
+     "Id": 300000405928239,
+     "Name": "England, United Kingdom",
+     "TotalCount": 38
+    },
+    {
+     "Id": 300000405928251,
+     "Name": "London, England, United Kingdom",
+     "TotalCount": 35
+    },
+    {
+     "Id": 300000000345301,
+     "Name": "Malaysia",
+     "TotalCount": 23
+    },
+    {
+     "Id": 300000405922203,
+     "Name": "Wilayah Persekutuan Kuala Lumpur, Malaysia",
+     "TotalCount": 19
+    },
+    {
+     "Id": 300000405922207,
+     "Name": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+     "TotalCount": 15
+    },
+    {
+     "Id": 300000000345520,
+     "Name": "United States",
+     "TotalCount": 14
+    },
+    {
+     "Id": 300000000341974,
+     "Name": "China",
+     "TotalCount": 13
+    },
+    {
+     "Id": 300000000345142,
+     "Name": "India",
+     "TotalCount": 13
+    },
+    {
+     "Id": 300000472030825,
+     "Name": "Shanghai, China",
+     "TotalCount": 12
+    }
+   ],
+   "postingDatesFacet": [
+    {
+     "Id": 7,
+     "Name": "Less than 7 days",
+     "TotalCount": 23
+    },
+    {
+     "Id": 30,
+     "Name": "Less than 30 days",
+     "TotalCount": 60
+    },
+    {
+     "Id": 31,
+     "Name": "Greater than 30 days",
+     "TotalCount": 119
+    }
+   ],
+   "titlesFacet": [],
+   "workLocationsFacet": [
+    {
+     "Id": 300000031761190,
+     "Name": "MY - KUALA LUMPUR - Centre Point North",
+     "TotalCount": 18
+    },
+    {
+     "Id": 300000003450983,
+     "Name": "GB - LONDON - THOMAS MORE SQUARE",
+     "TotalCount": 11
+    },
+    {
+     "Id": 300000400416355,
+     "Name": "CN - SHANGHAI-17-20/F, LU·ONE",
+     "TotalCount": 11
+    },
+    {
+     "Id": 300000219670140,
+     "Name": "MX - MEXICO CITY - XOLA",
+     "TotalCount": 7
+    },
+    {
+     "Id": 300000475157595,
+     "Name": "SG - SINGAPORE - BEACH ROAD",
+     "TotalCount": 7
+    },
+    {
+     "Id": 300000003447553,
+     "Name": "GB - HARROW - KINGS HOUSE",
+     "TotalCount": 5
+    },
+    {
+     "Id": 300000119225765,
+     "Name": "BG - SOFIA - CHERNI VRAH BLVD",
+     "TotalCount": 5
+    },
+    {
+     "Id": 300000003450766,
+     "Name": "IT - MILANO - VIA TOLMEZZO, 15",
+     "TotalCount": 3
+    },
+    {
+     "Id": 300000704986463,
+     "Name": "US - SAN FRANCISCO-345 CALIFORNIA ST",
+     "TotalCount": 3
+    },
+    {
+     "Id": 300000003449014,
+     "Name": "CA - TORONTO - 160 BLOOR",
+     "TotalCount": 2
+    }
+   ],
+   "flexFieldsFacet": [
+    {
+     "Name": "AttributeChar1",
+     "Label": "Job Type",
+     "values": [
+      {
+       "Id": "Full-Time",
+       "Name": "Full-Time",
+       "TotalCount": 170
+      },
+      {
+       "Id": "Internship",
+       "Name": "Internship",
+       "TotalCount": 5
+      },
+      {
+       "Id": "Contract",
+       "Name": "Contract",
+       "TotalCount": 3
+      },
+      {
+       "Id": "Part-Time",
+       "Name": "Part-Time",
+       "TotalCount": 1
+      }
+     ]
+    },
+    {
+     "Name": "AttributeChar12",
+     "Label": "Job",
+     "values": [
+      {
+       "Id": "300000121305996",
+       "Name": "Senior Researcher - RD10",
+       "TotalCount": 18
+      },
+      {
+       "Id": "300000121305619",
+       "Name": "Research Associate Manager - RD09",
+       "TotalCount": 13
+      },
+      {
+       "Id": "300000121305541",
+       "Name": "Research Manager - RD08",
+       "TotalCount": 10
+      },
+      {
+       "Id": "300000121305446",
+       "Name": "Research Associate Director - RD07",
+       "TotalCount": 5
+      },
+      {
+       "Id": "300000121305629",
+       "Name": "Researcher - RD11",
+       "TotalCount": 5
+      },
+      {
+       "Id": "300000121305227",
+       "Name": "Research Intern - RD12",
+       "TotalCount": 4
+      },
+      {
+       "Id": "300000121305391",
+       "Name": "Research Project Management Analyst - RF05",
+       "TotalCount": 3
+      },
+      {
+       "Id": "300000121305860",
+       "Name": "Research Project Management Senior Analyst - RF04",
+       "TotalCount": 3
+      },
+      {
+       "Id": "300000121305266",
+       "Name": "Advisory Senior Analyst - RA03",
+       "TotalCount": 2
+      },
+      {
+       "Id": "300000121305419",
+       "Name": "Data Capture Analyst - OA03",
+       "TotalCount": 2
+      }
+     ]
+    }
+   ],
+   "organizationsFacet": [
+    {
+     "Id": 300000351036262,
+     "Name": "Innovation",
+     "TotalCount": 22
+    },
+    {
+     "Id": 1,
+     "Name": "Ipsos",
+     "TotalCount": 21
+    },
+    {
+     "Id": 300000351036238,
+     "Name": "Healthcare",
+     "TotalCount": 21
+    },
+    {
+     "Id": 300000351036092,
+     "Name": "Brand Health Tracking",
+     "TotalCount": 19
+    },
+    {
+     "Id": 300000351036384,
+     "Name": "Public Affairs",
+     "TotalCount": 18
+    },
+    {
+     "Id": 300000351036336,
+     "Name": "Market Strategy & Understanding",
+     "TotalCount": 10
+    },
+    {
+     "Id": 300000351036310,
+     "Name": "Ipsos Understanding Unlimited",
+     "TotalCount": 9
+    },
+    {
+     "Id": 300000351036041,
+     "Name": "Audience Measurement",
+     "TotalCount": 8
+    },
+    {
+     "Id": 300000351036684,
+     "Name": "Total Operations",
+     "TotalCount": 8
+    },
+    {
+     "Id": 300000351036214,
+     "Name": "Customer Experience",
+     "TotalCount": 7
+    }
+   ],
+   "workplaceTypesFacet": [],
+   "requisitionList": [
+    {
+     "Id": "9446",
+     "Title": "Head of Internal Communications, UK & Ireland",
+     "PostedDate": "2026-10-26",
+     "PostingEndDate": null,
+     "Language": "US",
+     "PrimaryLocationCountry": "GB",
+     "GeographyId": 300000405928251,
+     "HotJobFlag": false,
+     "WorkplaceTypeCode": "ORA_HYBRID",
+     "JobFamily": null,
+     "JobFunction": null,
+     "WorkerType": null,
+     "ContractType": null,
+     "ManagerLevel": null,
+     "JobSchedule": null,
+     "JobShift": null,
+     "JobType": null,
+     "StudyLevel": null,
+     "DomesticTravelRequired": null,
+     "InternationalTravelRequired": null,
+     "WorkDurationYears": null,
+     "WorkDurationMonths": null,
+     "WorkHours": null,
+     "WorkDays": null,
+     "LegalEmployer": null,
+     "BusinessUnit": null,
+     "Department": null,
+     "Organization": null,
+     "BusinessUnitId": 300000002746120,
+     "LegalEmployerId": 300000002487993,
+     "OrganizationId": 300000351036552,
+     "MediaThumbURL": null,
+     "ShortDescriptionStr": "This is an exciting opportunity to lead internal communications for Ipsos across the UK & Ireland, playing a pivotal role in helping colleagues understand, connect with and contribute to the organisation's strategy and ambitions. Reporting to the Chief People Officer and working closely with the UK & Ireland CEO, you'll be at the heart of the business, influencing how key messages, priorities and cultural initiatives are communicated across the organisation.",
+     "PrimaryLocation": "London, England, United Kingdom",
+     "Distance": 1792972800000.0,
+     "TrendingFlag": false,
+     "BeFirstToApplyFlag": false,
+     "Relevancy": 10.0,
+     "WorkplaceType": "Hybrid",
+     "ExternalQualificationsStr": null,
+     "ExternalResponsibilitiesStr": null,
+     "secondaryLocations": []
+    },
+    {
+     "Id": "9915",
+     "Title": "Senior Research Executive, Public Affairs, Geneva",
+     "PostedDate": "2026-10-24",
+     "PostingEndDate": null,
+     "Language": "US",
+     "PrimaryLocationCountry": "CH",
+     "GeographyId": 300000112174356,
+     "HotJobFlag": false,
+     "WorkplaceTypeCode": "ORA_ON_SITE",
+     "JobFamily": null,
+     "JobFunction": null,
+     "WorkerType": null,
+     "ContractType": null,
+     "ManagerLevel": null,
+     "JobSchedule": null,
+     "JobShift": null,
+     "JobType": null,
+     "StudyLevel": null,
+     "DomesticTravelRequired": null,
+     "InternationalTravelRequired": null,
+     "WorkDurationYears": null,
+     "WorkDurationMonths": null,
+     "WorkHours": null,
+     "WorkDays": null,
+     "LegalEmployer": null,
+     "BusinessUnit": null,
+     "Department": null,
+     "Organization": null,
+     "BusinessUnitId": 300000002736704,
+     "LegalEmployerId": 300000002501081,
+     "OrganizationId": 300000351036384,
+     "MediaThumbURL": null,
+     "ShortDescriptionStr": "In Switzerland Ipsos is the largest market research company; we are a team of 126, from more than 29 countries and based in Geneva, Basel and Root.\nOur Public Affairs team based in Geneva is looking for a Senior Research Executive.\n",
+     "PrimaryLocation": "Genève, Switzerland",
+     "Distance": 1792800000000.0,
+     "TrendingFlag": false,
+     "BeFirstToApplyFlag": false,
+     "Relevancy": 10.0,
+     "WorkplaceType": "On-site",
+     "ExternalQualificationsStr": null,
+     "ExternalResponsibilitiesStr": null,
+     "secondaryLocations": []
+    },
+    {
+     "Id": "9758",
+     "Title": "Vice President, Sales - Technology",
+     "PostedDate": "2026-10-23",
+     "PostingEndDate": null,
+     "Language": "US",
+     "PrimaryLocationCountry": "US",
+     "GeographyId": 300000165362317,
+     "HotJobFlag": false,
+     "WorkplaceTypeCode": "ORA_HYBRID",
+     "JobFamily": null,
+     "JobFunction": null,
+     "WorkerType": null,
+     "ContractType": null,
+     "ManagerLevel": null,
+     "JobSchedule": null,
+     "JobShift": null,
+     "JobType": null,
+     "StudyLevel": null,
+     "DomesticTravelRequired": null,
+     "InternationalTravelRequired": null,
+     "WorkDurationYears": null,
+     "WorkDurationMonths": null,
+     "WorkHours": null,
+     "WorkDays": null,
+     "LegalEmployer": null,
+     "BusinessUnit": null,
+     "Department": null,
+     "Organization": null,
+     "BusinessUnitId": 300000002736678,
+     "LegalEmployerId": 300000002494242,
+     "OrganizationId": 300000351036310,
+     "MediaThumbURL": null,
+     "ShortDescriptionStr": "As Vice President, Sales, you’ll be the engine of new business growth for our technology sector practice. This is a pure sales role: you’ll focus on finding, pitching, and closing market research opportunities with tech clients, while our project directors and moderators handle delivery after the sale. You’ll understand the pace, pressure, and budget realities tech clients face, and you’ll know how to position research as the answer to their business challenges. As a founding member of the team, you’ll also help shape its culture, structure, and growth.",
+     "PrimaryLocation": "Culver City, CA, United States",
+     "Distance": 1792713600000.0,
+     "TrendingFlag": false,
+     "BeFirstToApplyFlag": false,
+     "Relevancy": 10.0,
+     "WorkplaceType": "Hybrid",
+     "ExternalQualificationsStr": null,
+     "ExternalResponsibilitiesStr": null,
+     "secondaryLocations": [
+      {
+       "RequisitionLocationId": 300001060572517,
+       "GeographyNodeId": 100007076986526,
+       "GeographyId": 300000165392930,
+       "Name": "Seattle, WA, United States",
+       "CountryCode": "US",
+       "Latitude": 47.60357,
+       "Longitude": -122.32945
+      },
+      {
+       "RequisitionLocationId": 300001060572518,
+       "GeographyNodeId": 100007076986514,
+       "GeographyId": 300000165362919,
+       "Name": "San Francisco, CA, United States",
+       "CountryCode": "US",
+       "Latitude": 37.77712,
+       "Longitude": -122.41967
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "count": 1,
+ "hasMore": false,
+ "limit": 50,
+ "offset": 0,
+ "links": []
+}

@@ -1,0 +1,16 @@
+[Unit]
+Description=job-digest Telegram button listener
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/job-digest
+ExecStart=/usr/bin/python3 /opt/job-digest/bot.py
+Restart=always
+# Stage 5: a restart stops only the listener, not a CV worker it started (1-3 min, sends the PDF itself)
+KillMode=process
+RestartSec=10
+Environment=TZ=Europe/Vienna LANG=C.UTF-8
+
+[Install]
+WantedBy=multi-user.target

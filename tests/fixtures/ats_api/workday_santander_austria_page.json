@@ -1,0 +1,41 @@
+{
+ "total": 13,
+ "jobPostings": [
+  {
+   "title": "Initiativbewerbung",
+   "externalPath": "/job/Wien/Initiativbewerbung_Req0896311",
+   "locationsText": "Wien",
+   "postedOn": "Posted 30+ Days Ago",
+   "bulletFields": [
+    "Req0896311"
+   ]
+  },
+  {
+   "title": "Mitarbeiter Inkasso Außendienst (m/w/d) | Wien, NÖ & Burgenland | Firmenfahrzeug",
+   "externalPath": "/job/Eisenstadt/Inkasso-im-Auendienst--m-w-d--fr-Wien-N-Bgld-mit-Dienstauto_Req1534701",
+   "locationsText": "Eisenstadt",
+   "postedOn": "Posted 4 Days Ago",
+   "bulletFields": [
+    "Req1534701"
+   ]
+  },
+  {
+   "title": "Social Media Manager (m/w/d) 25h/Woche",
+   "externalPath": "/job/Wien/Social-Media-Manager--m-w-d--25h-Woche_Req1586146",
+   "locationsText": "Wien",
+   "postedOn": "Posted 6 Days Ago",
+   "bulletFields": [
+    "Req1586146"
+   ]
+  },
+  {
+   "title": "Verkaufsexperte Digital Sales (m/w/d)",
+   "externalPath": "/job/Wien/Verkaufsexperte-Digital-Sales--m-w-d-_Req1616752",
+   "locationsText": "Wien",
+   "postedOn": "Posted 26 Days Ago",
+   "bulletFields": [
+    "Req1616752"
+   ]
+  }
+ ]
+}

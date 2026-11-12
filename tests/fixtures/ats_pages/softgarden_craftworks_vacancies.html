@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.sourceforge.net/" lang="en" class="no-js no-ie">
+    <head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="author" content="softgarden e-recruiting GmbH"/>
+     	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+		<link rel="icon" href="https://static.softgarden.de/favicon/favicon-32x32.png"><!--[if IE]><link rel="shortcut icon" href="https://static.softgarden.de/favicon/favicon.ico"><![endif]--><link rel="stylesheet" type="text/css" href="https://static.softgarden.de/thirdparty/leaflet/1.9.4/leaflet.css" />
+<link rel="stylesheet" type="text/css" href="https://static.softgarden.de/thirdparty/leaflet/markercluster/1.4.1/MarkerCluster.css" />
+<link rel="stylesheet" type="text/css" href="https://static.softgarden.de/thirdparty/leaflet/markercluster/1.4.1/MarkerCluster.Default.css" />
+<style type="text/css" id="markercluster">
+.marker-cluster-color     { background-color: rgba(9, 130, 198, 0.6); } .marker-cluster-color div { background-color: rgba(6, 91, 139, 0.6);  } .leaflet-oldie .marker-cluster-color     { background-color: rgb(9, 130, 198); } .leaflet-oldie .marker-cluster-color div { background-color: rgb(6, 91, 139);  } </style>
+<style type="text/css" id="jobSearchCss">
+#jobsContainer .matchContainer .title { width: 34.63% } #jobsContainer .matchContainer .audience { width: 19.78% } #jobsContainer .matchContainer .jobcategory { width: 19.78% } #jobsContainer .matchContainer .ProjectGeoLocationCity { width: 19.78% } </style>
+<script type="text/javascript" src="../wicket/resource/com.softgarden.staffit.webclient.webfrontend.core.WebFrontendApplication/core-ver-46480A77CA2574AB851CD35B365719CA.js"></script>
+<script type="text/javascript" id="jobsearchjs">
+/*<![CDATA[*/
+
+var criterions = [
+    {
+        "id": "audience",
+        "name": "Career Level",
+        "options": {
+            "00001": "Apprentice",
+            "3a3ab7987f000002010ad4925ffa0cf4": "Pupil",
+            "3a3af3667f000002010ad49215c3a5f4": "Young Professional",
+            "3a3b1f6e7f000002010ad492e7837dd6": "Experienced Professional",
+            "6179d1a00a0b0cce01ed3de8643a0e39": "Student"
+        }
+    },
+    {
+        "id": "jobcategory",
+        "name": "Job Categories",
+        "options": {
+            "sam42_physicians": "Physicians",
+            "sam42_administration": "Administration and Secretariat",
+            "sam42_banking": "Banking, Financial Services and Insurance",
+            "sam42_design": "Design and Architecture",
+            "sam42_education": "Education and Social Policy",
+            "sam42_engineering": "Engineering and technical Jobs",
+            "sam42_finance": "Finance",
+            "sam42_hr": "HR",
+            "sam42_it": "IT",
+            "sam42_law": "Law",
+            "sam42_manualwork": "Manual Work, Service Industry and Manufacturing",
+            "sam42_marketing": "Marketing and Communication",
+            "sam42_therapy": "Nursing, Therapy",
+            "sam42_publicsector": "Public Sector",
+            "sam42_purchase": "Purchasing, Materials Administration and Logistics",
+            "sam42_sales": "Sales",
+            "sam42_science": "Sciences and Research",
+            "sam42_management": "Senior Management"
+        }
+    }
+];
+var sg_jobsearch_hide_inactive = true;
+var jobs_selected = Array();
+var current_page = 1;
+var order_by = 0;
+var jobs_per_page = 10;
+var paging_window = -1;
+var JobResultAnimationOff = false;
+var showInfoBoxSeeEndOfPage = true;
+var jobs_selected_per_list = Array();
+var preselected_location = '';
+var preselected_location_radius = '';
+var preselected_values = {};
+var geocodingOverride = {"OSM":{"62782":{"boundingBox":"[\"53.3951118\", \"53.7393983\", \"9.7275419\", \"10.3252805\"]"}},"GOOGLE":{}};
+jQuery(document).ready(function() {
+    jQuery('#selector_0').change(function () {
+    	jQuery('#jobsContainer').show();
+    	updateLists(0, order_by);
+	 	jQuery('.resetForm').show();
+	});
+    jQuery('#selector_1').change(function () {
+    	jQuery('#jobsContainer').show();
+    	updateLists(1, order_by);
+	 	jQuery('.resetForm').show();
+	});
+jQuery('.matchHeadline').show();
+initialize(order_by);
+});jobs_selected_per_list[0] = Array();
+jobs_selected_per_list[1] = Array();
+var job_id_list_ordered = new Array ();
+job_id_list_ordered[0] = [29812044];
+job_id_list_ordered[1] = [29812044];
+job_id_list_ordered[2] = [29812044];
+job_id_list_ordered[3] = [29812044];
+job_id_list_ordered[4] = [29812044];
+
+var complete_job_id_list = jobs_selected = [29812044];
+var jobs_keyword_search = complete_job_id_list;
+var jobs_geoLocation_search = complete_job_id_list;
+var search_criteria = new Array();
+search_criteria[0] = new Object();
+search_criteria[0]["3a3af3667f000002010ad49215c3a5f4"] = [29812044];
+
+search_criteria[1] = new Object();
+search_criteria[1]["sam42_it"] = [29812044];
+
+
+/*]]>*/
+</script>
+<link rel="alternate" hreflang="de" href="https://craftworksgmbh.softgarden.io/de/vacancies" />
+<title>Career board | craftworks GmbH</title><meta name="description" content="career board | © softgarden" />
+<meta name="robots" content="index, follow" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Career board | craftworks GmbH" />
+<meta name="twitter:site" content="@softgarden" />
+<meta name="twitter:description" content="career board | © softgarden" />
+<meta name="twitter:image" content="https://app.softgarden.io/assets/public/media/get/d41022f1-3feb-43e2-b5f1-57c10d905258/1670777804783/1100x0/Karriereportal_Headerbild.jpg" />
+<meta property="og:title" content="Career board | craftworks GmbH" />
+<meta property="og:description" content="career board | © softgarden" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://app.softgarden.io/assets/public/media/get/d41022f1-3feb-43e2-b5f1-57c10d905258/1670777804783/1100x576P/Karriereportal_Headerbild.jpg" />
+<meta property="og:image:width" content="1100" />
+<meta property="og:image:height" content="576" />
+<script type="text/javascript" src="../wicket/resource/com.softgarden.staffit.webclient.webfrontend.pages.main.js.JavaScriptReference/modernizr-ver-BBD564F40D2D602049100DC76FE17C37.js"></script>
+<script type="text/javascript" id="sg_config">
+/*<![CDATA[*/
+var SG = SG || {};
+/*]]>*/
+</script>
+<link rel="stylesheet" type="text/css" href="//static.softgarden.de/thirdparty/fonts/css/dosis.css" />
+<link rel="stylesheet" type="text/css" href="//static.softgarden.de/thirdparty/fonts/css/dosis-vietnamese_latin-ext_latin.css" />
+<link rel="stylesheet" type="text/css" href="../wicket/resource/com.softgarden.staffit.webclient.webfrontend.pages.main.css.CssReference/webfrontend-v2-ver-591897EFF2EA75250FF42C429E89BE70.css" />
+<style type="text/css" id="companyCss">
+body { background:  #ffffff no-repeat 0% 0%; } 
+.content-wrapper, .narrow-page, header.image-header { background-color: #ffffff; } 
+.content-box { background: #000000; } 
+a, label i, label em { color: #004798; } 
+a:visited { color: #0982c6; } 
+a:hover, .btn-link:hover, .btn-link:focus, .btn-link:active { color: #004798; } 
+body, h1, h2, h3 { color: #0982c6; } 
+.secondary-color, label, .control-group.error .control-label { color: #004798; } 
+textarea:focus, select:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus, .chosen-container-active .chosen-single, .chosen-container-active .chosen-choices, .chosen-container .chosen-drop { border-color: #0982C6; } 
+.btn, .btn:visited, .btn-primary, .btn-primary:visited, .upload-item { background-color: #0982C6; color: #dbebf8; background-image: none; } 
+.btn-link, .btn-link:visited { color: #004798; } 
+.upload-item a, .upload-item a:visited { color: #dbebf8; } 
+.thirdparty-btn.thirdparty-btn--cv-upload > * { color: #dbebf8 !important; } 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active { background-color: #004798; color: #ffffff; } 
+.thirdparty-btn.thirdparty-btn--cv-upload:hover > *, .thirdparty-btn.thirdparty-btn--cv-upload:active > *, .thirdparty-btn.thirdparty-btn--cv-upload:focus > * { color: #ffffff !important; } 
+.navbar .btn-navbar, .navbar .btn-navbar.active, .navbar .btn-navbar:active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover { background-color: #ffffff; background-image: none; } 
+.navbar .btn-navbar .icon-bar, .navbar .btn-navbar.active .icon-bar, .navbar .btn-navbar:active .icon-bar, .navbar .btn-navbar:focus .icon-bar, .navbar .btn-navbar:hover .icon-bar { background-color: #004798; } 
+.sg-rating__star-icn.is-active, .sg-rating__star.is-hover .sg-rating__star-icn { color: #0982C6; } 
+.navbar .navbar-inner, .navbar .dropdown-menu { background-color: #ffffff; } 
+.navbar .nav > li > .dropdown-menu:after { border-bottom-color: #ffffff; } 
+.navbar .nav > li > a, .nav-collapse .dropdown-menu a, .navbar a, .navbar a:visited { color: #004798; } 
+.navbar .nav li.dropdown > .dropdown-toggle .caret { border-color: #004798; } 
+.navbar .nav > li > a.active, .navbar .nav > li > a:focus, .navbar .nav > li > a:hover, .navbar .nav li.dropdown.open > .dropdown-toggle, .nav-collapse .dropdown-menu a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .nav > li > a:focus, .nav-collapse .nav > li > a:hover { background-color: #004798; color: #dbebf8; } 
+.navbar .nav li.dropdown > a:focus .caret, .navbar .nav li.dropdown > a:hover .caret, .navbar .nav li.dropdown.open > .dropdown-toggle .caret { border-color: #dbebf8; } 
+@media only screen and (max-width: 767px) {
+.job-search #jobsContainer .matchContainer .ProjectGeoLocationCity,
+.job-search #jobsContainer .matchContainer .audience,
+.job-search #jobsContainer .matchContainer .date,
+.job-search #jobsContainer .matchContainer .jobcategory,
+.job-search #jobsContainer .matchContainer .sg_company_id,
+.job-search #jobsContainer .matchContainer .title {
+width: 100%;
+padding: 2px 0
+}
+.job-search #jobsContainer .matchContainer .matchHeadline {
+display: none!important
+}
+}</style>
+<meta name="wicket.header.items"/>
+    </head>
+    <body>
+		<a href="#content" class="visually-hidden">Skip to main content</a>
+		
+		<div id="navbar" class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" aria-label="main menu">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a class="brand" href="./vacancies">
+						
+						<img src="https://app.softgarden.io/assets/public/media/get/2f6599e3-3542-44d3-893c-777b41f40d32/1674228127736/0x45/Design_ohne_Titel-3.png" alt="craftworks GmbH"/>
+					</a>
+					
+					<div class="nav-public-collapse nav-collapse collapse">
+						<ul class="nav-public nav">
+					    	<li><a href="./vacancies" class="link-jobs external navlink active">Jobs</a></li><li></li><li></li><li></li><li></li>
+						</ul>
+					</div>
+					
+					<div class="nav-personal-collapse nav-collapse collapse">
+						<ul class="nav-personal nav pull-right">
+							<li><a href="../sign-in?l=en" class="link-signin navlink">Sign in</a></li><li><a href="../sign-up?l=en" class="link-register navlink">Sign up</a></li><li></li>
+							
+							<li class="dropdown-lang dropdown">
+								<a class="dropdown-toggle current-lang" data-toggle="dropdown" href="#"><i class="icon-flag small en" title="English"></i> <b class="caret"></b></a>
+								<ul class="dropdown-menu pull-left" data-role="menu">
+									<li class="lang">
+										<a href="./vacancies?-1.-navigationPanel-languageContainer-langNavRepeater-1-langNavLink">
+											<i class="icon-flag small de" title="German"></i>
+											Deutsch (German)
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		<div id="content" class="page-wrapper">
+			<div class="container">
+
+					
+		
+			<header class="image-header">
+				<div class="img-wrap">
+					<img src="https://app.softgarden.io/assets/public/media/get/d41022f1-3feb-43e2-b5f1-57c10d905258/1670777804783/1100x0/Karriereportal_Headerbild.jpg" alt="">
+				</div>
+			</header>
+		
+
+		
+		
+
+		
+		
+	
+					<div class="body-wrapper">
+						
+		
+		<div class="jobs-page narrow-page">
+			<div>
+		<div class="job-search-panel">
+		
+			
+		
+			<div class="job-search">
+		<div class="internal-account-hint span3">
+			<a href="./vacancies?-1.-jobSearch-jobSearchContainer-internalLink" class="btn btn-primary">Already an employee?</a>
+		</div>
+
+		<div class="searchBoxComplete">
+			<div class="searchBoxTop">
+				<section class="job-search-config searchBoxTopSmall">
+					<form class="search-form">
+						<section class="keyword-search">
+							<div class="keywordSearch">
+								<label for="keyword_search">Keyword search</label>
+								<div class="loading-spinner" id="performing_keyword_search">
+									<img src="../img/jobsearch/taloom_loader_small.gif" alt="searching"/>
+								</div>
+								<input id="keyword_search" type="text" class="input-xlarge" value="" name="jobSearch:jobSearchContainer:keyword_search"/>
+							</div>
+						</section>
+						<section class="location-search">
+							<div class="locationSearch search_criterion_box search_criterion_box_location">
+								<div class="resetLink selectAllLinkContainer">
+									<a href="#" onclick="resetLocationSearch();jQuery('.locationSearch .resetLink').hide(); return false;">Reset</a>
+								</div>
+								<label for="geoLocation_search">Location search</label>
+
+								<div class="loading-spinner" id="performing_location_search">
+									<img src="../img/jobsearch/taloom_loader_small.gif" alt="searching"/>
+								</div>
+								<div>
+									<input id="geoLocation_search" type="text" class="input-xlarge" value="" name="jobSearch:jobSearchContainer:geoLocation_search_wrapper:geoLocation_search"/>
+									<div id="geoLocation_info">
+
+										<small>
+											Work in
+											<a href="#" onclick="centerMapToSearch();" id="geoLocation_result"> </a>
+											<span class="search-result-no-map"></span>
+											within
+										</small>
+										<div id="geoLocation_radius">
+											<select name="jobSearch:jobSearchContainer:geoLocation_search_wrapper:geoLocationRadius" id="id1">
+<option value="1">1 km</option>
+<option value="5">5 km</option>
+<option value="10">10 km</option>
+<option selected="selected" value="25">25 km</option>
+<option value="50">50 km</option>
+<option value="75">75 km</option>
+<option value="100">100 km</option>
+</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						
+	
+	<section class="extended-search">
+		<div class="search-criteria-container">
+			
+				<div class="search_criterion_box">
+	<div class="searchFieldLabel">
+		<div class="selectAllLinkContainer"><a href="javascript:;" id="id2" data-select="#selector_0" class="js-toggle-all-select-options">Reset</a></div>
+		<label for="searchFieldId" class="searchCriterionBoxHeader">Audience</label>
+	</div>
+	<select id="selector_0" multiple="multiple" size="5" class="SearchMultiSelectBox filter-options-select search_criterion_box_audience" aria-label="Zielgruppe oder Jobkategorie auswählen" name="audience[]" data-reset-link="#id2">
+<option  title = "Apprentice" value="00001">Apprentice</option>
+<option  title = "Pupil" value="3a3ab7987f000002010ad4925ffa0cf4">Pupil</option>
+<option  title = "Young Professional" value="3a3af3667f000002010ad49215c3a5f4">Young Professional</option>
+<option  title = "Experienced Professional" value="3a3b1f6e7f000002010ad492e7837dd6">Experienced Professional</option>
+<option  title = "Student" value="6179d1a00a0b0cce01ed3de8643a0e39">Student</option>
+</select>
+</div>
+			
+				<div class="search_criterion_box">
+	<div class="searchFieldLabel">
+		<div class="selectAllLinkContainer"><a href="javascript:;" id="id3" data-select="#selector_1" class="js-toggle-all-select-options">Reset</a></div>
+		<label for="searchFieldId" class="searchCriterionBoxHeader">Job category</label>
+	</div>
+	<select id="selector_1" multiple="multiple" size="5" class="SearchMultiSelectBox filter-options-select search_criterion_box_jobcategory" aria-label="Zielgruppe oder Jobkategorie auswählen" name="jobcategory[]" data-reset-link="#id3">
+<option  title = "Physicians" value="sam42_physicians">Physicians</option>
+<option  title = "Administration and Secretariat" value="sam42_administration">Administration and Secretariat</option>
+<option  title = "Banking, Financial Services and Insurance" value="sam42_banking">Banking, Financial Services and Insurance</option>
+<option  title = "Design and Architecture" value="sam42_design">Design and Architecture</option>
+<option  title = "Education and Social Policy" value="sam42_education">Education and Social Policy</option>
+<option  title = "Engineering and technical Jobs" value="sam42_engineering">Engineering and technical Jobs</option>
+<option  title = "Finance" value="sam42_finance">Finance</option>
+<option  title = "HR" value="sam42_hr">HR</option>
+<option  title = "IT" value="sam42_it">IT</option>
+<option  title = "Law" value="sam42_law">Law</option>
+<option  title = "Manual Work, Service Industry and Manufacturing" value="sam42_manualwork">Manual Work, Service Industry and Manufacturing</option>
+<option  title = "Marketing and Communication" value="sam42_marketing">Marketing and Communication</option>
+<option  title = "Nursing, Therapy" value="sam42_therapy">Nursing, Therapy</option>
+<option  title = "Public Sector" value="sam42_publicsector">Public Sector</option>
+<option  title = "Purchasing, Materials Administration and Logistics" value="sam42_purchase">Purchasing, Materials Administration and Logistics</option>
+<option  title = "Sales" value="sam42_sales">Sales</option>
+<option  title = "Sciences and Research" value="sam42_science">Sciences and Research</option>
+<option  title = "Senior Management" value="sam42_management">Senior Management</option>
+</select>
+</div>
+			
+		</div>
+		<div class="hide" id="mobile_placeholder">Please choose</div>
+	</section>
+	
+
+					</form>
+				</section>
+				<section class="job-abo">
+
+					<a href="./vacancies?-1.-jobSearch-jobSearchContainer-jobAboLink" rel="nofollow" class="btn btn-primary">Subscribe to jobs</a>
+
+				</section>
+
+				
+			</div>
+
+			<div id="jobsContainer" class="job-search-results">
+				<div>
+		<div class="job-search-result-panel">
+			<section id="job-search-map" class="jobMapContainer">
+				<div id="map_canvas"></div>
+			</section>
+
+			<section class="results">
+				<form>
+					<div class="result_count_div" id="job-search-result-count-label">
+						<p id="result_count_one" style="display: none;">Your search returned one positions</p>
+						<p id="result_count_more" style="display: none;">Your search returned  <span id='jobs_result_count'>{0}</span>  positions:</p>
+						<p id="result_count_none" style="display: none;">Your search returned no positions.</p>
+					</div>
+					<div class="matchContainer">
+						<div class="matchElement matchHeadline">
+							<div id="matchValueHeadline1" class="matchValue title" onclick="reorderList(1); return false;">
+								<a href="#" onclick="return false;"><span>Vacancy</span><b class="caret"></b></a>
+							</div><div id="matchValueHeadline2" class="matchValue audience" onclick="reorderList(2); return false;">
+								<a href="#" onclick="return false;"><span>Audience</span><b class="caret"></b></a>
+							</div><div id="matchValueHeadline3" class="matchValue jobcategory" onclick="reorderList(3); return false;">
+								<a href="#" onclick="return false;"><span>Job category</span><b class="caret"></b></a>
+							</div><div id="matchValueHeadline4" class="matchValue ProjectGeoLocationCity" onclick="reorderList(4); return false;">
+								<a href="#" onclick="return false;"><span>Location</span><b class="caret"></b></a>
+							</div>
+						</div>
+						<div class="outputContainer">
+							<div class="matchElement" id="job_id_29812044">
+								<div target="_blank" class="matchValue title">
+			<a href="../job/29812044/Talent?jobDbPVId=280474048&amp;l=en" target="_blank">Talent</a>
+		</div><div class="matchValue audience">Young Professional</div><div class="matchValue jobcategory">IT</div><div class="matchValue ProjectGeoLocationCity">
+			<div>
+				<div class="location-container">
+					<span class="location-view-item">Wien</span>
+
+					
+
+					
+				</div>
+
+			</div>
+
+		</div>
+							</div>
+						</div>
+						<div class="pagination pagination-centered"><ul id="job-search-pagination" class="taloom-pager"></ul></div>
+					</div>
+				</form>
+			</section>
+		</div>
+	</div>
+				
+			</div>
+		</div>
+
+		<div id="sg_modal" hidden="" data-wicket-placeholder=""></div>
+	</div>
+
+		</div>
+	</div>
+		</div>
+	
+	
+					</div>
+
+
+				
+		<footer id="footer">
+			<ul class="inline">
+				<li><a href="./imprint" target="_blank" class="sg_imprint_link">Imprint</a></li>
+				<li><a href="./data-security" target="_blank" class="sg_data_privacy_link">Privacy Policy</a></li>
+				<li class="powered-by-taloom">
+	<span>
+		powered by 
+		<a href="https://softgarden.com/en" target="_blank">softgarden</a>
+		
+	</span>
+</li>
+			</ul>
+		</footer>
+	
+			</div>
+		</div>
+
+		
+
+		<div id="sg_modal" hidden="" data-wicket-placeholder=""></div>
+
+		
+		<script type="text/javascript" id="wicket-ajax-base-url">
+/*<![CDATA[*/
+Wicket.Ajax.baseUrl="en/vacancies";
+/*]]>*/
+</script>
+<script type="text/javascript" src="//static.softgarden.de/thirdparty/chosen/1.8.7/chosen.jquery.min.js"></script>
+<script type="text/javascript" id="id2">
+/*<![CDATA[*/
+$('#id2').hide();
+/*]]>*/
+</script>
+<script type="text/javascript" id="id3">
+/*<![CDATA[*/
+$('#id3').hide();
+/*]]>*/
+</script>
+<script type="text/javascript" id="allJobLocations">
+/*<![CDATA[*/
+SG.allJobLocations = [];SG.allJobLocations.push({markerName: 'Talen\x74', latitude: 48.2081743, longitude: 16.3738189, postingId: 29812044, geoName: 'Wien,\x20Österreich'});
+/*]]>*/
+</script>
+<script type="text/javascript" id="jobMapInit">
+/*<![CDATA[*/
+var sg_initMap = function() { "use strict"; var options = {markerBaseUrl: "https://craftworksgmbh.softgarden.io/",mapMarkerURL: "https://app.softgarden.io/assets/public/media/get/6cf4b702-f124-4b99-914d-fdc9e0b8b018/1673948658285/map_marker.png",mapMarkerColor: "#0982C6"};var initialMapArea = '';SG.currentJobMap = new JobMap(jQuery("#job-search-map div"), options, initialMapArea);
+ };
+/*]]>*/
+</script>
+<script type="text/javascript" src="https://static.softgarden.de/thirdparty/leaflet/1.9.4/leaflet.js"></script>
+<script type="text/javascript" src="https://static.softgarden.de/thirdparty/leaflet/markercluster/1.4.1/leaflet.markercluster.js"></script>
+<script type="text/javascript" id="mapInitCallback">
+/*<![CDATA[*/
+$(document).ready(function() { sg_initMap(); });
+/*]]>*/
+</script>
+<script type="text/javascript" src="/thirdparty/jquery/query/jquery.query-2.2.3.js"></script>
+<script type="text/javascript" src="../wicket/resource/com.softgarden.staffit.webclient.webfrontend.pages.main.js.JavaScriptReference/jobSearchLive-ver-DF58093895DAE1EA109A34586D3118B6.js"></script>
+<script type="text/javascript" id="frontend-font">
+/*<![CDATA[*/
+WebFont.load({custom:{families:['Open Sans']}});
+/*]]>*/
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+Wicket.Event.add(window, "domready", function(event) { 
+Wicket.Ajax.ajax({"u":"./vacancies?-1.0-jobSearch-jobSearchContainer-keyword_search","m":"POST","c":"keyword_search","e":"input change","ch":"keyword_search|d","tr":{"id":"keyword_search","d":10,"p":true}});;
+$('#id1').chosen({width: "100%",disable_search: true,no_results_text: "No entry found",placeholder_text_single: "Please choose",placeholder_text_multiple: "Please choose"});requestAnimationFrame(function() {  var $input = $('#id1_chosen .chosen-search input');  if ($input.length && !$input.attr('aria-label')) {    $input.attr('aria-label', 'Search options');  }});;
+Wicket.Event.publish(Wicket.Event.Topic.AJAX_HANDLERS_BOUND);
+;});
+/*]]>*/
+</script>
+
+    </body>
+</html>

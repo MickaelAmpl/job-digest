@@ -1,0 +1,163 @@
+{
+  "lang": "en",
+  "name": "Alex Morgan",
+  "headline": "Product Manager",
+  "contacts": [
+    {
+      "text": "Vienna, Austria"
+    },
+    {
+      "text": "+43 660 0000000",
+      "href": "tel:+436600000000"
+    },
+    {
+      "text": "alex.morgan@example.com",
+      "href": "mailto:alex.morgan@example.com"
+    },
+    {
+      "text": "linkedin.com/in/alexmorgan-example",
+      "href": "https://www.linkedin.com/in/alexmorgan-example/"
+    }
+  ],
+  "labels": {
+    "summary": "Summary",
+    "experience": "Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "skills": "Skills",
+    "languages": "Languages",
+    "extra": "Extracurricular Activities",
+    "verify": "verify",
+    "thesis": "Bachelor thesis"
+  },
+  "summary": "3+ years in Web3 and fintech products. Joined a crypto market data platform at day one and defined it from research and positioning to launch: roadmap, specs, tickets and GA4 product metrics; 120,000+ users in year one. Founded and exited a Telegram media network (150,000+ subscribers). Works daily with Claude and Codex.",
+  "experience": [
+    {
+      "dates": "Apr 2024 - Jun 2026",
+      "role": "Product Manager",
+      "org": "Crypto market data platform (name confidential under NDA)",
+      "location": "Remote",
+      "bullets": [
+        "Defined the product's business logic from day one: research, positioning, then development with the CTO",
+        "Reached <b>120,000+ users</b> in year one; then worked on the team's second product, a Telegram mini-app",
+        "Wrote the product docs, roadmap and tickets for developers and the designer; prepared wireframes",
+        "Defined the product metrics tracked in GA4 (set up by the team) and used them for monetization and engagement decisions",
+        "Worked directly with the owners and with marketing on the go-to-market strategy"
+      ]
+    },
+    {
+      "dates": "May 2024 - Jan 2025",
+      "role": "Product & Operations Associate (part-time)",
+      "org": "Kestrel, neobank startup for Europe (Seedline Capital accelerator)",
+      "location": "Remote",
+      "bullets": [
+        "Mapped the end-to-end card application and issuing journey and prepared wireframes for the designer",
+        "Ran market and competitor analysis to inform positioning and feature decisions",
+        "Supported fundraising with cold outreach to venture funds"
+      ]
+    },
+    {
+      "dates": "Apr 2023 - Feb 2024",
+      "role": "Research Analyst",
+      "org": "Northwind Labs",
+      "location": "Remote",
+      "bullets": [
+        "Wrote 3 white papers and a lite paper (CoinNest, PayLoop, VR Horizon, StudyPath), reviewed by CPO and CTO",
+        "Designed the token model (supply, allocation, utility) for StudyPath",
+        "Market and competitor research: LatAm crypto market (Zentex), SwiftRamp (GatePay), TradeHub exchange",
+        "Benchmarked the UX of 6 fintech platforms (Stripe, Adyen, Square, Plaid, BitPay, Chainalysis) for GatePay"
+      ]
+    },
+    {
+      "dates": "May 2020 - Sep 2022",
+      "role": "Founder",
+      "org": "Telegram Media Network",
+      "bullets": [
+        "Grew a Telegram media network to <b>150,000+ subscribers</b> via paid placements and cross-promotion",
+        "Led a team of 5; monetized through advertising sold in the channels",
+        "Exited the business in 2022"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "dates": "Jul 2026",
+      "school": "Danube Business School",
+      "degree": "BSc in International Management",
+      "thesis": "How early-stage startups decide when to pivot",
+      "location": "Vienna, Austria"
+    },
+    {
+      "dates": "Jun 2024",
+      "school": "Eastbridge University",
+      "degree": "Bachelor of Economics, International Economics",
+      "location": "Kraków, Poland"
+    }
+  ],
+  "certifications": [
+    {
+      "dates": "Sep 2026",
+      "title": "AI Prompting for Everyone",
+      "issuer": "DeepLearning.AI, Andrew Ng",
+      "href": "https://www.deeplearning.ai/certificates/example"
+    },
+    {
+      "dates": "Aug 2026",
+      "title": "Generative AI for Everyone",
+      "issuer": "DeepLearning.AI, Andrew Ng",
+      "href": "https://www.deeplearning.ai/certificates/example"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Product",
+      "items": "Roadmapping, Product specs & documentation, Market & competitive analysis, Wireframing, Surveys"
+    },
+    {
+      "group": "Go-to-market & Web3",
+      "items": "Go-to-market, Token economics, White papers, TradingView, CoinMarketCap, Messari"
+    },
+    {
+      "group": "Tools",
+      "items": "Google Analytics 4 (GA4), Jira (Kanban), Confluence, Notion, Figma, Canva, Excel & Google Sheets"
+    },
+    {
+      "group": "AI",
+      "items": "Claude, Codex, Perplexity, Stitch, AI-assisted prototyping"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "C1, BSc taught in English"
+    },
+    {
+      "name": "German",
+      "level": "B1, ÖSD certificate"
+    },
+    {
+      "name": "Polish",
+      "level": "native"
+    },
+    {
+      "name": "Czech",
+      "level": "native"
+    }
+  ],
+  "extra": [
+    {
+      "dates": "2018",
+      "title": "Competitive rowing",
+      "text": "regional competitions"
+    }
+  ],
+  "order": [
+    "summary",
+    "experience",
+    "education",
+    "skills",
+    "languages",
+    "certifications",
+    "extra"
+  ]
+}

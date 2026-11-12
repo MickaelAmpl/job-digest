@@ -1,0 +1,139 @@
+{
+  "note": "Cover-letter paragraph library: draft 09.10.2026, wording by product, pending Misha's approval. Texts come only from cv/facts.md. Proofs with context 'platform' use text_after when the crypto market data platform was already introduced earlier in the letter (identity or a previous proof).",
+  "hook_templates": [
+    "{company} is hiring a {title}, and the experience below is what I bring to the role.",
+    "The {title} role at {company} fits the mix of product and research work I have done in Web3 and fintech."
+  ],
+  "identity": {
+    "id_product": "For 3+ years I have worked on Web3 and fintech products, most recently as Product Manager of a crypto market data platform.",
+    "id_research": "My background is research: before product management I worked as a research analyst at Northwind Labs, covering markets, competitors and UX for Web3 and fintech projects.",
+    "id_ai": "For 3+ years I have worked on Web3 and fintech products, using AI tools throughout that work."
+  },
+  "proofs": {
+    "pr_zero_to_launch": {
+      "text": "I joined a crypto market data platform at the very start, when the project was being built from zero. I took it from market research and positioning to launch: I defined the business and product logic, what to build and why, while the CTO led development. Within its first year the platform passed 120,000 users.",
+      "label_ru": "запуск продукта с нуля",
+      "tags": [
+        "product strategy",
+        "market research",
+        "positioning",
+        "product launch",
+        "user growth",
+        "Web3"
+      ],
+      "context": "platform",
+      "text_after": "I joined it at the very start, when the project was being built from zero, and took it from market research and positioning to launch: I defined the business and product logic, what to build and why, while the CTO led development. Within its first year the platform passed 120,000 users."
+    },
+    "pr_specs_delivery": {
+      "text": "As Product Manager of the crypto market data platform, I wrote the product documentation and the roadmap. From them I wrote tickets for the developers and the designer, together with wireframes and references for design. The team worked in Kanban, with Jira for tickets and Confluence for documentation.",
+      "label_ru": "спеки, роадмап и тикеты",
+      "tags": [
+        "roadmap",
+        "product specs",
+        "Kanban",
+        "Jira",
+        "Confluence",
+        "wireframes"
+      ],
+      "context": "platform",
+      "text_after": "I wrote the product documentation and the roadmap, then tickets for the developers and the designer, together with wireframes and references for design. The team worked in Kanban, with Jira for tickets and Confluence for documentation."
+    },
+    "pr_metrics": {
+      "text": "On the crypto market data platform, I defined which product metrics we tracked; the team set them up in Google Analytics (GA4). From then on I monitored those numbers and used them in decisions on monetization and engagement.",
+      "label_ru": "метрики и решения по росту",
+      "tags": [
+        "KPIs",
+        "product analytics",
+        "GA4",
+        "monetization",
+        "engagement"
+      ],
+      "context": "platform",
+      "text_after": "I also defined which product metrics we tracked; the team set them up in Google Analytics (GA4). From then on I monitored those numbers and used them in decisions on monetization and engagement."
+    },
+    "pr_gtm_stakeholders": {
+      "text": "On the crypto market data platform, I worked directly with the owners and closely with the CTO while setting product priorities. With the marketer I worked on the go-to-market strategy.",
+      "label_ru": "работа с владельцами и маркетингом",
+      "tags": [
+        "stakeholder management",
+        "go-to-market",
+        "cross-functional teams",
+        "product strategy"
+      ],
+      "context": "platform",
+      "text_after": "Day to day I worked directly with the owners and closely with the CTO while setting product priorities, and with the marketer on the go-to-market strategy."
+    },
+    "pr_market_research": {
+      "text": "At Northwind Labs, research was the core of my work. For the Zentex crypto exchange I covered the Latin American crypto market with briefs on about 9 countries and a ranking of 12 Latin American crypto startups. I also wrote a competitor profile of the TradeHub exchange and sized the VR market for the VR Horizon white paper.",
+      "label_ru": "исследование рынка и конкурентов",
+      "tags": [
+        "market research",
+        "competitor analysis",
+        "market sizing",
+        "Web3",
+        "crypto"
+      ]
+    },
+    "pr_ux_benchmark": {
+      "text": "For GatePay, a crypto payments company, I benchmarked the user experience of 6 fintech platforms: Stripe, Adyen, Square, Plaid, BitPay and Chainalysis. I also profiled its competitor SwiftRamp.",
+      "label_ru": "UX-бенчмарк платёжных сервисов",
+      "tags": [
+        "UX benchmarking",
+        "competitor analysis",
+        "fintech",
+        "payments"
+      ]
+    },
+    "pr_whitepapers_tokenomics": {
+      "text": "Long-form writing was part of the job at Northwind Labs: I wrote white papers for CoinNest, VR Horizon and StudyPath and a lite paper for PayLoop, each reviewed by the CPO and the CTO. For StudyPath I also designed the token model (supply, allocation, utility), which the CTO reviewed and corrected.",
+      "label_ru": "white papers и токеномика",
+      "tags": [
+        "tokenomics",
+        "token economics",
+        "white papers",
+        "Web3",
+        "crypto"
+      ]
+    },
+    "pr_fintech_kestrel": {
+      "text": "In parallel with my product role, I worked part-time at Kestrel, a neobank in development for the European market that was in the Seedline Capital accelerator. I ran market and competitor analysis for positioning and features, mapped the card application and issuing journey with wireframes for the designer, and sent cold outreach to venture funds.",
+      "label_ru": "нео-банк в разработке",
+      "tags": [
+        "fintech",
+        "market research",
+        "competitor analysis",
+        "user journey",
+        "wireframes",
+        "investor outreach"
+      ]
+    },
+    "pr_founder": {
+      "text": "Earlier, I founded a Telegram media network and grew it to 150,000+ subscribers through paid placements in other channels and cross-promotion. I led a team of 5, earned revenue from advertising sold in the channels, and exited the business in 2022.",
+      "label_ru": "основатель медиасети в Telegram",
+      "tags": [
+        "growth",
+        "monetization",
+        "digital marketing",
+        "team leadership"
+      ]
+    },
+    "pr_ai_daily": {
+      "text": "I use AI tools daily: Claude, Codex and Perplexity for research and documentation, from first market scans to product documents. In 2026 I completed the DeepLearning.AI courses Generative AI for Everyone and AI Prompting for Everyone.",
+      "label_ru": "ИИ-инструменты каждый день",
+      "tags": [
+        "generative AI",
+        "AI tools",
+        "prompting",
+        "research",
+        "documentation"
+      ]
+    }
+  },
+  "exclusive": [],
+  "closings": {
+    "cl_walkthrough": "I can walk you through the roadmap and the first-year results of the crypto market data platform in an interview.",
+    "cl_metrics": "I can walk you through the product metrics I defined and the monetization and engagement decisions they supported in a short call.",
+    "cl_research": "I can walk you through the market and competitor research I ran at Northwind Labs in a short call."
+  },
+  "sign_off": "Kind regards,"
+}

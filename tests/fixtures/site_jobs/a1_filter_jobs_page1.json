@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "id": "9296",
+   "title": "Verkaufsmitarbeiter:in A1 Shop Stockerau, Vollzeit (w/m/d)",
+   "url": "https://jobs.a1.com/de/jobs/job/9296-verkaufsmitarbeiterin-a1-shop-stockerau-vollzeit-wmd",
+   "company": "A1 Telekom Austria AG",
+   "location": "Stockerau",
+   "dataCompany": "A1 Telekom Austria AG",
+   "dataLocation": "Stockerau",
+   "type": {
+    "category": "Sales",
+    "timeType": "Full time",
+    "remoteType": "Office"
+   }
+  },
+  {
+   "id": "9044",
+   "title": "Senior Business Auditor (f/m/d) @ Group Internal Audit (Holding)",
+   "url": "https://jobs.a1.com/de/jobs/job/9044-senior-business-auditor-fmd-group-internal-audit-holding",
+   "company": "Telekom Austria AG",
+   "location": "Wien",
+   "dataCompany": "Telekom Austria AG",
+   "dataLocation": "Wien",
+   "type": {
+    "category": "Internal Audit &amp; Legal",
+    "timeType": "Full time",
+    "remoteType": "Partially Remote"
+   }
+  },
+  {
+   "id": "9046",
+   "title": "Senior IT Auditor (f/m/d) @ Group Internal Audit (A1 Holding)",
+   "url": "https://jobs.a1.com/de/jobs/job/9046-senior-it-auditor-fmd-group-internal-audit-a1-holding",
+   "company": "Telekom Austria AG",
+   "location": "Wien",
+   "dataCompany": "Telekom Austria AG",
+   "dataLocation": "Wien",
+   "type": {
+    "category": "Internal Audit &amp; Legal",
+    "timeType": "Full time",
+    "remoteType": "Partially Remote"
+   }
+  },
+  {
+   "id": "9056",
+   "title": "Verkaufsmitarbeiter:in A1 Shop Pasching Plus City (w/m/d)",
+   "url": "https://jobs.a1.com/de/jobs/job/9056-verkaufsmitarbeiterin-a1-shop-pasching-plus-city-wmd",
+   "company": "A1 Telekom Austria AG",
+   "location": "Pasching",
+   "dataCompany": "A1 Telekom Austria AG",
+   "dataLocation": "Pasching",
+   "type": {
+    "category": "Sales",
+    "timeType": "Full time",
+    "remoteType": "Office"
+   }
+  },
+  {
+   "id": "9033",
+   "title": "A1 B2B Inside Sales Verkäufer:in Wien (w/m/d)",
+   "url": "https://jobs.a1.com/de/jobs/job/9033-a1-b2b-inside-sales-verk%c3%a4uferin-wien-wmd",
+   "company": "A1 Telekom Austria AG",
+   "location": "Wien",
+   "dataCompany": "A1 Telekom Austria AG",
+   "dataLocation": "Wien",
+   "type": {
+    "category": "Sales",
+    "timeType": "Full time",
+    "remoteType": "Office"
+   }
+  },
+  {
+   "id": "6534",
+   "title": "Außendienstmitarbeiter:in Verkauf, Region Nord (w/m/d)",
+   "url": "https://jobs.a1.com/de/jobs/job/6534-au%c3%9fendienstmitarbeiterin-verkauf-region-nord-wmd",
+   "company": "A1 Telekom Austria AG",
+   "location": "Salzburg, Linz",
+   "dataCompany": "A1 Telekom Austria AG",
+   "dataLocation": "Salzburg",
+   "type": {
+    "category": "Sales",
+    "timeType": "Full time",
+    "remoteType": "Partially Remote"
+   }
+  }
+ ],
+ "totalItems": 54,
+ "maxPages": 9,
+ "filterData": {
+  "job-category": {
+   "customer-management": "Customer Management",
+   "cyber-security": "Cyber Security",
+   "it": "IT",
+   "internal-audit-legal": "Internal Audit &amp; Legal",
+   "lehre": "Lehre",
+   "marketing": "Marketing",
+   "network-infrastructure": "Network / Infrastructure",
+   "other": "Other",
+   "sales": "Sales"
+  },
+  "location": {
+   "austria": "Austria",
+   "baden": "Baden",
+   "bischofshofen": "Bischofshofen",
+   "burgenland": "Burgenland",
+   "dornbirn": "Dornbirn",
+   "feldkirch": "Feldkirch",
+   "gerasdorf-bei-wien": "Gerasdorf bei Wien",
+   "graz": "Graz",
+   "hartberg": "Hartberg",
+   "innsbruck": "Innsbruck",
+   "korneuburg": "Korneuburg",
+   "krems-an-der-donau": "Krems an der Donau",
+   "k%c3%a4rnten": "Kärnten",
+   "leoben": "Leoben",
+   "lienz": "Lienz",
+   "linz": "Linz",
+   "murau": "Murau",
+   "nieder%c3%b6sterreich": "Niederösterreich",
+   "pasching": "Pasching",
+   "reutte": "Reutte",
+   "ried-im-innkreis": "Ried im Innkreis",
+   "salzburg": "Salzburg",
+   "seiersberg": "Seiersberg",
+   "spittal-an-der-drau": "Spittal an der Drau",
+   "st-johann-in-tirol": "St. Johann in Tirol",
+   "st-p%c3%b6lten": "St. Pölten",
+   "stockerau": "Stockerau",
+   "v%c3%b6cklabruck": "Vöcklabruck",
+   "wels": "Wels",
+   "wien": "Wien",
+   "wiener-neustadt": "Wiener Neustadt",
+   "w%c3%b6rgl": "Wörgl",
+   "zell-am-see": "Zell am See"
+  },
+  "management-level": {
+   "individual-contributor": "Individual Contributor"
+  },
+  "company": {
+   "a1-bulgaria": "A1 Bulgaria",
+   "a1-digital-international-gmbh-co-kg": "A1 Digital International GmbH & Co KG",
+   "a1-telekom-austria-ag": "A1 Telekom Austria AG",
+   "telekom-austria-ag": "Telekom Austria AG"
+  }
+ },
+ "nextPageUrl": "https://jobs.a1.com/wp-json/a1-group/v1/filter-jobs?country=Austria&page=2"
+}
